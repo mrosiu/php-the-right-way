@@ -1,56 +1,67 @@
 ---
+title: Interfejs CLI
 isChild: true
 ---
 
-## Command Line Interface
+## Interfejs CLI (Command Line Interface)
 
-PHP was created primarily to write web applications, but it's also useful for scripting command line interface (CLI) programs, too. Command line PHP programs can help you automate common tasks like testing, deployment, and application administrativia.
+PHP znajduje zastosowanie głównie przy tworzeniu aplikacji webowych, ale może być również użyteczny jako język
+skryptowy uruchamiany z poziomu konsoli. Dzięki temu można łatwo automatyzować typowe zadania, jak testowanie
+jednostkowe, proces deploymentu, czy administrację aplikacją.
 
-CLI PHP programs are powerful because you can use your app's code directly without having to create and secure a web GUI for it. Just be sure not to put your CLI PHP scripts in your public web root!
+Skrypty uruchamiane z poziomu konsoli mają dostęp do całego kodu Twojej aplikacji i mogą go uruchamiać w ten sam
+sposób jak w przypadku wywołania z poziomu serwera WWW. Pamiętaj, aby nie umieszczać skryptów przeznaczonych do
+uruchomienia pod konsolą w publicznej części Twojego projektu.
 
-Try running PHP from your command line:
+Srpróbuj uruchomić następujące polecenie z poziomu linii poleceń:
 
 {% highlight bash %}
 > php -i
 {% endhighlight %}
 
-The `-i` option will print your PHP configuration just like the [`phpinfo`][phpinfo] function. 
+Twoim oczom powinna ukazać się pełna konfiguracja PHP, zbliżona do tej, którą zwraca funkcja [`phpinfo`][phpinfo].
 
-The `-a` option provides an interactive shell, similar to ruby's IRB or python's interactive shell. There are a number of other useful [command line options][cli-options], too.
+Inną ciekawą opcją jest `-a` - umożliwia ona uruchomienie interaktywnej konsoli PHP, podobnej do tej z Ruby'ego, czy
+Pythona.
 
-Let's write a simple "Hello, $name" CLI program. To try it out, create a file named `hello.php`, as below.
+Aby zapoznać się z pełną listą opcji interfejsu konsolowego, zajrzyć na [tę stronę][cli-options].
+
+Jeżeli argumentem wywołania polecenia `php` będzie plik z kodem źródłowym, zostanie on uruchomiony. Uruchamiając skrypt
+z poziomu konsoli otrzymujesz możliwość do dwóch zmiennych - `$argc` i `$argv`. Pierwsza z nich jest liczbą naturalną
+reprezentującą ilość przekazanych argumentów wywołania, a druga tablicą z ich wartościami. Ponadto istnieje możliwość
+zwrócenia kodu wyjścia, aby poinformować powłokę, czy skrypt wykonał się poprawnie. Więcej informacji na temat kodów
+wyjścia znajdziesz [tutaj][exit-codes].
+
+Poniżej znajdziesz kod skryptu drukującego napis "Witaj, $imie" z możliwością podania imienia przez linię poleceń. Plik
+z przykłądu nazywa się `hello.php`.
 
 {% highlight php %}
 <?php
 if($argc != 2) {
-    echo "Usage: php hello.php [name].\n";
+    echo "Usage: php hello.php [imię].\n";
     exit(1);
 }
-$name = $argv[1];
-echo "Hello, $name\n";
+$imie = $argv[1];
+echo "Witaj, $imie!\n";
 {% endhighlight %}
 
-PHP sets up two special variables based on the arguments your script is run with. [`$argc`][argc] is an integer variable containing the argument *count* and [`$argv`][argv] is an array variable containing each argument's *value*. The first argument is always the name of your PHP script file, in this case `hello.php`.
-
-The `exit()` expression is used with a non zero number to let the shell know that the command failed. Commonly used exit codes can be found [here][exit-codes]
-
-To run our script, above, from the command line:
+A oto przykład wywołania powyższego skryptu:
 
 {% highlight bash %}
 > php hello.php
-Usage: php hello.php [name]
-> php hello.php world
-Hello, world
+Usage: php hello.php [imię]
+> php hello.php Marek
+Cześć, Marek!
 {% endhighlight %}
 
 
- * [Learn about running PHP from the command line][php-cli]
- * [Learn about setting up Windows to run PHP from the command line][php-cli-windows]
+ * [Jak uruchamiać skrypty PHP z linii poleceń][php-cli]
+ * [Jak skonfigurować PHP w systemie windows, aby móc uruchamiać skrypty z linii poleceń][php-cli-windows]
 
-[phpinfo]: http://php.net/manual/en/function.phpinfo.php
-[cli-options]: http://www.php.net/manual/en/features.commandline.options.php
-[argc]: http://php.net/manual/en/reserved.variables.argc.php
-[argv]: http://php.net/manual/en/reserved.variables.argv.php
-[php-cli]: http://php.net/manual/en/features.commandline.php
-[php-cli-windows]: http://www.php.net/manual/en/install.windows.commandline.php
+[phpinfo]: http://php.net/manual/pl/function.phpinfo.php
+[cli-options]: http://www.php.net/manual/pl/features.commandline.options.php
+[argc]: http://php.net/manual/pl/reserved.variables.argc.php
+[argv]: http://php.net/manual/pl/reserved.variables.argv.php
+[php-cli]: http://php.net/manual/pl/features.commandline.php
+[php-cli-windows]: http://www.php.net/manual/pl/install.windows.commandline.php
 [exit-codes]: http://www.gsp.com/cgi-bin/man.cgi?section=3&topic=sysexits
