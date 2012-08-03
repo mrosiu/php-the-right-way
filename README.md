@@ -1,67 +1,74 @@
 # PHP: The Right Way
 
-## Overview
+## Ogólnie
 
-This is the GitHub Pages repository for the _PHP: The Right Way_ project.
+Witaj w repozytorium GitHub Pages dla polskiego tłumaczenia projektu _PHP: The Right Way_! 
 
-* This website is a Jekyll project.
-* Each section and sub-section are a Markdown file in `_posts/`.
-* Sub-sections have `isChild: true` in their front matter.
-* The navigation and page structure are automatically generated.
+* Ta strona jest projektem Jekyll.
+* Kolejne sekcje i podsekcje sa plikami *.md (Markdown) w katalogu `_posts/`.
+* Podsekcje posiadają wpis `isChild: true` w nagłówku.
+* Nawigacja boczna i struktura strony jest generowana automagicznie.
 
-## Spread the Word!
+## Podziel się dobrą informacją
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP
-developers know where to find good information!
+_PHP: The Right Way_ udostępnia banery reklamowe, które śmiało możesz umieścić na swojej stronie internetowej, aby
+pomóc nam promować tę inicjatywę wśród programistów PHP.
 
-[See Banner Images](http://www.phptherightway.com/banners.html)
+[Obejrzyj dostępne banery](http://www.phptherightway.com/banners.html)
 
-## How to Contribute
+## Jak mogę pomóc?
 
-1. Fork and edit
-2. Optionally install [Ruby](https://rvm.io/rvm/install/) with [Jekyll](https://github.com/mojombo/jekyll/) gem to preview locally
-3. Submit pull request for consideration
+1. Zrób forka i wprowadź swoje zmiany.
+2. Zainstaluj [Ruby](https://rvm.io/rvm/install/) oraz [Jekyll](https://github.com/mojombo/jekyll/), aby podejrzeć
+swoją pracę lokalnie.
+3. Wyślij "pull request", abyśmy mogli rozważyć wprowadzenie Twoich zmian do głównego repozytorium. 
 
-### Contributor Style Guide
+### Przyjęty styl
 
-1. Use American English spelling (*primary English repo only*)
-2. Use four (4) spaces to indent text; do not use tabs.
-3. Wrap all text to 120 characters.
-4. Code samples should adhere to PSR-1 or higher.
+1. W głównym repozytorium (język angielski) używaj American English.
+2. W polskim repozytorium stosuj poprawną polszczyznę, stosuj interpunkcję.
+3. Rozbiąc wcięcia, używaj czterech spacji. Nigdy nie stosuj tabulatorów.
+4. Przykłady kodu powinny przestrzegać PSR-1 lub wyższego.
 
-## Where
+## Gdzie?
 
 <http://www.phptherightway.com>
 
-* [English](http://www.phptherightway.com)
-* [Chinese](http://wulijun.github.com/php-the-right-way)
+* [Angielski](http://www.phptherightway.com)
+* [Chiński](http://wulijun.github.com/php-the-right-way)
+* [Polski](http://pl.phptherightway.com)
 
-### Translations
+### Tłumaczenia
 
-If you are interested in translating _PHP: The Right Way_, fork this repo on GitHub and publish your localized fork to your own GitHub Pages account. We'll link to your translation from the primary document.
+Jeżeli jesteś zainteresowany wykonaniem tłumaczenia tego projektu na inny język, sforkuj oryginalne repozytorium i
+opublikuj swoje tłumaczenie przy pomocy GitHub Pages. Twoja praca zostanie podlinkowana w głównym dokumencie.
 
-To avoid fragmentation and reader confusion, please choose one of these options:
+Masz możliwość uruchomienia swojego tłumaczenia w adresie GitHub, np. `[username].github.com/php-the-right-way`
+lub w naszej subdomenie, np. `ru.phptherightway.com`. Jeżeli chcesz skorzystać z subdomeny, wpisz jej nazwę w pliku
+`CNAME`, który znajduje się w głównym katalogu projektu. W przeciwnym wypadku usuń ten plik całkowicie, gdyż w
+przeciwnym razie Twoje strona nie opublikuje się. 
 
-1. We link to your GitHub Pages fork with `[username].github.com/php-the-right-way`
-2. We link to your GitHub Pages fork with a subdomain (e.g. "ru.phptherightway.com")
+Po zakończeniu swojej pracy dodaj zgłoszenie w Issue Trackerze oryginalnego repozytorium, abyśmy mogli podlinkować
+Twoją pracę.
 
-If you use a subdomain, enter the subdomain into the `CNAME` file, and ask us to setup DNS for you. If you do not use a subdomain, remove the `CNAME` file entirely else your fork will not build when pushed.
+## Dlaczego?
 
-When your translation is ready, open an issue on the Issue Tracker to let us know.
+W Sieci brakuje spójnej isntrukcji jak sprawnie rozpocząć programowanie w PHP. Projekt ten ma na celu zmianę tego stanu
+rzeczy.
 
-## Why
+## Kto?
 
-There's been a lot of discussion lately about how the PHP community lacks sufficient, credible information for programmers new to PHP. This repository aims to solve this problem.
+Nazywam się [Josh Lockhart](http://twitter.com/codeguy). Jestem autorem projektu [Slim Framework](http://www.slimframework.com/) i pracuję w firmie [New Media Campaigns](http://www.newmediacampaigns.com/)..
 
-## Who
-
-My name is [Josh Lockhart](http://twitter.com/codeguy). I'm the author of the [Slim Framework](http://www.slimframework.com/), and I work for [New Media Campaigns](http://www.newmediacampaigns.com/).
-
-### Collaborators
+### Współpracownicy
 
 * [Kris Jordan](http://krisjordan.com/)
 * [Phil Sturgeon](http://philsturgeon.co.uk/)
 
-## License
+## Licencja
 
-[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+Dokument jest udostępniony na licencji Creative Commons [Uznanie autorstwa-Użycie niekomercyjne-Na tych samych warunkach 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+
+## Tłumaczenie na język polski
+
+Tłumaczenie na język polski wykonał Bartosz Maciaszek
