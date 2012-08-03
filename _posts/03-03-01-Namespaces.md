@@ -1,19 +1,24 @@
 ---
+title: Przestrzenie nazw
 isChild: true
 ---
 
-## Namespaces
+## Przestrzenie nazw
 
-As mentioned above, the PHP community has a lot of developers creating lots of code. This means that one library's PHP code may use the same class name as another library. When both libraries are used in the same namespace, they collide and cause trouble.
+Jak wspomniano wcześniej, społeczność PHP jest tworzona przez niezliczoną ilość programistów. Powoduje to, że może
+zdarzyć się sytuacja w której dwie rózne biblioteki używają klasy o takiej samej nazwie. W takim przypadku pojawi się
+problem.
 
-_Namespaces_ solve this problem. As described in the PHP reference manual, namespaces may be compared to operating system directories that _namespace_ files; two files with the same name may co-exist in separate directories. Likewise, two PHP classes with the same name may co-exist in separate PHP namespaces. It's as simple as that.
+Naprzeciw temu problemowi wychodzą _przestrzenie nazw_, których działanie można porównać z funkcją katalogów w systemie
+plików. Tak samo jak dwa pliki o tej samej nazwie mogą istnieć w dwóch różnych katalogach, klasy o takich samych
+nazwach mogą istnieć w różnych przestrzeniach nazw.
 
-It is important for you to namespace your code so that it may be used by other developers without fear of colliding with other libraries.
+Z tego powodu istotne jest, aby Twój kod był przypisany do wałsnej przestrzni nazw, aby jego elementy (klasy, funkcje,
+czy stałe nie kolidowały z klasami biblitek, których używasz.
 
-One recommended way to use namespaces is outlined in [PSR-0][psr0], which aims to provide a standard file, class and namespace convention to allow plug-and-play code.
+Dokument [PSR-0][psr0] omawia jak powinieneś stosować przestrzenie nazw, aby zabezpieczyć się przez takimi problemami.
 
-* [Read about Namespaces][namespaces]
-* [Read about PSR-0][psr0]
+* [Więcej informacji o przestrzeniach nazw][namespaces]
 
-[namespaces]: http://php.net/manual/en/language.namespaces.php
+[namespaces]: http://php.net/manual/pl/language.namespaces.php
 [psr0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
