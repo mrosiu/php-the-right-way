@@ -5,8 +5,8 @@ isChild: true
 
 ## Wbudowany serwer WWW
 
-Jeżeli korzystasz z PHP 5.4, możesz łatwo rozpocząć naukę bez konieczności instalowania i konfigurowania standardowego
-serwera WWW, gdyż ta wersja posiada własny, wbudowany w dystrybucję serwer. Aby go uruchomić, wykonaj następujące
+PHP 5.4 posiada własny, wbudowany w dystrybucję serwer WWW, więc jezeli korzystasz z tej wersji, możesz łatwo rozpocząć
+naukę programownaia bez istalacji standardowego serwera, takiego jak Apache. Aby uruchomić serwer wykonaj następujące
 polecenie w głównym katalogu swojego projektu:
 
  > php -S localhost:8000

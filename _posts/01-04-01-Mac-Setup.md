@@ -14,7 +14,8 @@ Możesz także [skompilować PHP samodzielnie][mac-compile], ale wcześniej upew
 ["Command Line Tools for Xcode"][apple-developer], które możesz ściągnąć z Mac Developer Center firmy Apple.
 
 Istnieje również możliwość instalacji pakietu "all-in-one", który zawiera PHP, serwer Apache oraz bazę MySQL wraz z
-graficznym interfejsem do zarządzania całym pakietem. Jeżeli interesuje Cię ta opcja, zainteresuj się projektem [MAMP][mamp-downloads].
+graficznym interfejsem do zarządzania całym pakietem. Jeżeli interesuje Cię ta opcja, zainteresuj się projektem
+[MAMP][mamp-downloads].
 
 [mac-package-managers]: http://www.php.net/manual/pl/install.macosx.packages.php
 [mac-compile]: http://www.php.net/manual/pl/install.macosx.compile.php

@@ -1,40 +1,47 @@
 # Witaj!
 
-W Sieci znajduje się mnóstwo nieaktualnych informacji na temat PHP, które rozpowszechniają złe praktyki kodowania
-i prowadzą nowych użytkowników na manowce. Tak dalej być nie może. _PHP: The Right Way_ przystępnym zbiorem najlepszych
-praktyk, standardów kodowania oraz linków do sprawdzonych tutoriali dostępnych w Sieci.
+W Sieci można znaleźć wiele publikacji na temat PHP. Niestety, wiele z nich jest nieaktualnych, niekompletnych, lub nie
+odnosi się do aktualnych dostępnych wersji. Wprowadza to wszechobecny zamęt i prowadzi nowych fanów tego języka na
+przysłowiowe manowce. Tak dalej być nie może. _PHP: The Right Way_ jest przystępnym zbiorem najlepszych praktyk i
+standarów kodowania, a także linków do sprawdzonych i solidnych tutoriali pałętających się w czeluściach Internetu. 
 
 ## Tłumaczenia
 
-_PHP: The Right Way_ jest (lub wkrótce będzie) przetłumaczone na wiele języków:
+_PHP: The Right Way_ jest (lub niebawem będzie) przetłumaczony na wiele języków:
 
 * [Angielski](http://www.phptherightway.com)
 * [Chiński](http://wulijun.github.com/php-the-right-way)
+* [Hiszpański](http://es.phptherightway.com)
 * [Japoński](http://ja.phptherightway.com)
+* [Polski](http://pl.phptherightway.com)
 * Portugalski (Wkrótce)
 * Rosyjski (Wkrótce)
-* [Hiszpański](http://es.phptherightway.com)
 * Ukraiński (Wkrótce)
-* Polski(http://pl.phptherightway.com)
 
 ## Uwaga
 
-Nie istnieje żaden standardowy sposób, który mówiłby w jaki sposób powinieneś używać PHP, jednakże dokument ten próbuje
-zebrać w jednym miejscu najlepsze praktyki i przydatne informacje, aby pomóc wejść w świat PHP początkującym, a także
-usystematyzować wiedzę bardziej doświadczonych programistów.
+Nie istnieje żaden standardowy sposób, który mówiłby w jaki sposób powinieneś korzystać z PHP. Ta strona stara się
+jednakże zebrać w jednym miejscu najlepsze praktyki, najważniejsze możliwości języka oraz inne cenne informacje. Ta
+swoista pigułka przeznaczona jest zarówno dla początkujących programistów, rozpoczynających swoją zabawę z PHP, jak dla
+zaawansowanych wyjadaczy, którzy zagłębiając się w jej lekturze będą mieli możliwość przemyślenia ich dotychczasowych
+przyzwyczajeń bądź poznania najlepszych rozwiązań.
 
-Dokument ten jest wciąż rozwijany i uzupełniany o nowe informacje i przykłady.
+Dokument ten jest wciąż rozwijany oraz uzupełniany o kolejne materiały i przykłady. Jeżeli chciałbyś pomóc w jego
+rozwoju, przeczytaj poniższy akapit.
 
-## Jak możesz pomóc
+## Jak mogę pomóc?
 
-Pomóż stworzyć najlepsze źródło informacji dla programistów PHP! [Strona projektu w GitHub][1]
+Jezeli chciałbyś/chciałabyś mieć wpływ na zawartość tego dokumentu lub po prostu chcesz powiedzieć światu o tej
+inicjatywie - zapraszamy!
 
-## Podziel się informacją!
+[Strona projektu w serwisue GitHub][1] 
 
-_PHP: The Right Way_ posiada banery reklamowe, które możesz umieścić na swojej stronie internetowej, aby informacja
-o tym dokumencie dotarła do większej ilości programistów PHP.
+## Podziel się dobrą informacją!
 
-[Zobacz banery][2]
+_PHP: The Right Way_ udostępnia banery reklamowe, które śmiało możesz umieścić na swojej stronie internetowej, aby
+pomóc nam promować tę inicjatywę wśród programistów PHP.
+
+[Obejrzyj dostępne banery][2]
 
 [1]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
 [2]: /banners.html

@@ -5,11 +5,12 @@ isChild: true
 
 ## Używaj ostatniej stabilnej wersji (5.4)
 
-Jeżeli dopiero zaczynasz przygodę z PHP, upewnij się, że korzystasz z ostatniej stabilnej wersji
-[PHP 5.4][php-release]. W ciągu ostatnich kilku lat PHP poczyniło duże postępy dodając sporo [nowych, przydatnych
-funkcji] (#language_highlights). Nie daj się wprowadzić w błąd przez niewielką zmianę numeracji wersji i pamiętaj, że różnice
-między wersją 5.2 a 5.4 są _znaczne_. Na stronie [php.net] [php-docs] znajdziesz manual zawierający spis wszystkich
-funkcji wraz z informacją nat temat ich wywołania.
+Jeżeli dopiero rozpoczynasz swoją przygodę z PHP, upewnij się, że korzystasz z ostatniej stabilnej wersji (obecnie
+[PHP 5.4][php-release]). PHP jest silnie rozwijane i twórcy tego języka wciąż dodają do niego [nowe, przydatne funkcje]
+(#language_highlights). Mimo tego, że konwencja nadawania kolejnych numerów wersji języka może sugerować, że zmiany są
+niewielkie, w rzeczywistości różnice np. między wersją 5.2 a 5.4 są _znaczące_. Na stronach [php.net][php-docs]
+dostępna jest obszerna, przetłumaczona na wiele języków dokumentacja zawierająca opis możliwości języka PHP jak również
+spis wszystkich dostępnych funkcji i sposobów ich wywołania.
 
 [php-release]: http://www.php.net/downloads.php
 [php-docs]: http://www.php.net/manual/pl/
