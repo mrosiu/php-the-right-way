@@ -1,4 +1,5 @@
 ---
+title: Instalacja na Maku
 isChild: true
 ---
 
