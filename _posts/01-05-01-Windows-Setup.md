@@ -5,22 +5,26 @@ isChild: true
 
 ## Instalacja w systemie Windows
 
-PHP is available in several ways for Windows. You can [download the binaries](php-downloads) and until recently you could use a '.msi' 
-installer. The installer is no longer supported and stops at PHP 5.3.0.
+PHP w systemie Windows można zainstalować na kilka sposobów. Pierwszym z nich jest instalacja
+[binariów](php-downloads). Do wersji 5.3.0 można było korzystać z instalatora .msi, obecnie ten sposób instalacji
+nie jest już wspierany.
 
-For learning and local development you can use the built in webserver with PHP 5.4 so you don't need to worry about configuring it. If you 
-would like an "all-in-one" which includes a full-blown webserver and MySQL too then tools such as the [Web Platform Installer][wpi], 
-[Zend Server CE][zsce], [XAMPP][xampp] and [WAMP][wamp] will help get a Windows development environment up and running fast. That said, these tools will be 
-a little different from production so be careful of environment differences if you are working on Windows and deploying to Linux.
+Do nauki i lokalnego rozwijania aplikacji oprartych o PHP najlepiej użyć serwera WWW wbudowanego w dystrybucję.
+Używając go, nie musisz się martwić o jego konfigurację. Jeżeli potrzebujesz czegoś więcej, możesz użyć jednego z
+pakietów "all-in-one", który sprawnie zainstaluje dedykowany serwer WWW, PHP oraz bazę danych MysQL. Najbardziej
+znanymi rozwiązaniami tego typu są [Web Platform Installer][wpi], [Zend Server CE][zsce], [XAMPP][xampp] oraz
+[WAMP][wamp]. Używając ich, pamiętaj o tym, że takie środowisko może różnić się od produkcyjnego, działajcego np. na
+Linuksie.
 
-If you need to run your production system on Windows then IIS7 will give you the most stable and best performance. You can use 
-[phpmanager][phpmanager] (a GUI plugin for IIS7) to make configuring and managing PHP simple. IIS7 comes with FastCGI built in and ready 
-to go, you just need to configure PHP as a handler. For support and additional resources there is a [dedicated area on iis.net][php-iis] for 
-PHP.
+Jeżeli chcesz stworzyć środowisko produkcyjne w systemie Windows, najlepszym rozwiązaniem jest użycie serwera IIS7,
+który uznawany jest obecnie za najszybszy i najbardziej stabilny serwer WWW dla Windows. Aby skonfigurować PHP na
+serwerze IIS7 możesz użyć pluginu [phpmanager][phpmanager]. Pomocna może się okazać strona
+[http://php.iis.net][php-iis].
 
-Generally running your application on different environment in development and production can lead to strange bugs popping up when you go 
-live. If you are developing on Windows and deploying to Linux (or anything non-Windows) then you should consider using a Virtual Machine. This 
-sounds tricky, but using [Vagrant][vagrant] you can set up simple wrappers, then using [Puppet][puppet] or [Chef][chef] you can provision these boxes and share them with your colleagues to ensure you're all working on the same stack. More on this soon.
+Pamiętaj o tym, że development aplikacji w systemie znacznie różniącym się od docelowego może prowadzić do problemów
+podczas instalacji aplikacji na serwerze produkcyjnym. Jeżeli tworzysz aplikację pod Windowsem, a uruchamiasz ją pod
+Linuksem, rozważ możliwość użycia maszyny wirtualnej. W tym celu zainteresuj się projektami [Vagrant][vagrant], a także
+[Puppet][puppet] lub [Chef][chef].
 
 [php-downloads]: http://windows.php.net
 [phpmanager]: http://phpmanager.codeplex.com/
