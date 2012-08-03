@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Website Banners
+title: Banery
 description: "Spread the word! Use these banner to let new PHP programmers know about PHP: The Right Way"
 ---
 
-# Web Banners
+# Banery
 
-Spread the word with _PHP: The Right Way_ banner images! Show new PHP developers where to find good information.
+Umieść nasze banery na swojej stronie internetowej i pokaż programistom PHP gdzie znaleźć sprawdzone informacje.
 
 ## Button 1 (120x90)
 
