@@ -26,8 +26,8 @@ swoją pracę lokalnie.
 ### Przyjęty styl
 
 1. W głównym repozytorium (język angielski) używaj American English.
-2. W polskim repozytorium stosuj poprawną polszczyznę, stosuj interpunkcję.
-3. Rozbiąc wcięcia, używaj czterech spacji. Nigdy nie stosuj tabulatorów.
+2. W polskim repozytorium stosuj poprawną polszczyznę, stosuj właściwą interpunkcję.
+3. Robiąc wcięcia, używaj czterech spacji. Nigdy nie stosuj tabulatorów.
 4. Przykłady kodu powinny przestrzegać PSR-1 lub wyższego.
 
 ## Gdzie?
