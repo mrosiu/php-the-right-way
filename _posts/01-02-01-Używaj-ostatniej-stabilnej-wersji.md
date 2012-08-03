@@ -1,5 +1,5 @@
 ---
-title: Używaj ostatniej stabilnej wersji (5.4)
+title: Używaj ostatniej stabilnej wersji
 isChild: true
 ---
 
