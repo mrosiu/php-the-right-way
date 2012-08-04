@@ -1,10 +1,20 @@
-# Dependency Management
+---
+title: Zarządzanie zależnościami
+---
 
-There are a ton of PHP libraries, frameworks, and components to choose from. Your project will likely use several of them — these are project dependencies. Until recently, PHP did not have a good way to manage these project dependencies. Even if you managed them manually, you still had to worry about autoloaders. No more.
+# Zarządzanie zależnościami
 
-Currently there are two major package management systems for PHP - Composer and PEAR. Which one is right for you? The answer is both.
+PHP posiada tysiące bibliotek, frameworków i komponentów. Tworząc swój projekt wybierzezsz prawdopodobnie kilka z nich
+- będą to jego zależności. Przez wiele lat PHP nie posiadał sprawnie działającego sposobu na zarządzanie zależnościami.
+Nawet jeżeli udało Ci się zestawić razem potrzebne Ci biblioteki, musiałeś ręcznie zadbać o ich dołączenie do projektu.
+Nigdy więcej. 
 
- * Use **Composer** when managing dependencies for a single project.
- * Use **PEAR** when managing dependencies for PHP as a whole on your system.
+PHP dysponuje dwoma niezależnymi systemami pakietów. Są nimi Composer i PEAR. Zastanawiasz się pewnie który wybrać.
+Otóż wszystko zależy od tego w jaki sposób chcesz go użyć.
 
-In general, Composer packages will be available only in the projects that you explicitly specify whereas a PEAR package would be available to all of your PHP projects. While PEAR might sound like the easier approach at first glance, there are advantages to using a project-by-project approach to your dependencies.
+ * Jeżeli potrzebujesz stworzyć zależności dla konkretnego projektu - użyj **Composera**.
+ * Jeżeli potrzebujesz zarządzać zależnościami dla całej instalacji PHP - użyj **PEARa**.
+
+Innymi słowy, pakiety Composera będą dostępne jedynie w projekcie, dla którego je przygotujesz, podczas gdy biblioteki
+PEARa będą dostępne dla wszystkich aplikacji w obrębie instalacji PHP. Mimo, że PEAR wydaje się być łatwiejszym
+podejściem, istnieje wiele przesłanek, aby zarządzać swoimi zależnościami per projekt. 
