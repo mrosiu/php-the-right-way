@@ -1,13 +1,17 @@
 ---
+title: Bezpieczeństwo aplikacji webowych
 isChild: true
 ---
 
-## Web Application Security
+## Bezpieczeństwo aplikacji webowych
 
-There are bad people ready and willing to exploit your web application. It is important that you
- take necessary precautions to harden your web application's security. Luckily, the fine folks at [The Open Web Application Security Project][1] (OWASP) have compiled a comprehensive list of known security issues and methods to protect yourself against them. This is a must read for the security-conscious developer.
+Na świecie istnieją dranie, którzy chcieliby wykorzystać Twoją aplikację do niecnych celów. Jako deweloper, powinieneś
+być świadomy zagrożeń, które czyhają z ich strony i w odpowiedni sposób zabezpiczeyć swoją aplikację, aby ich uniknąć.
+Na szczęście dobrzy ludzie z projektu [The Open Web Application Security Project][1] (OWASP) przygotowali obszerną
+listę potencjalnych zagrożeń wynikających z faktu dostępneści Twojej aplikacji w Internecie wraz z informacją jak się
+przed nimi bronić. Jest to lektura obowiązkowa dla każdego dewelopera PHP chcącego pisać bezpieczne aplikacje webowe.
 
-* [Read the OWASP Security Guide][2]
+* [Przeczytaj "OWASP Security Guide"][2]
 
 [1]: https://www.owasp.org/
 [2]: https://www.owasp.org/index.php/Guide_Table_of_Contents

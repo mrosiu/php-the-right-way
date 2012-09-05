@@ -1,15 +1,15 @@
 ---
+title: Pliki konfiguracyjne
 isChild: true
 ---
 
-## Configuration Files
+## Pliki konfiguracyjne
 
-When creating configuration files for your applications, best practices recommend that one of the following methods 
-be followed:
+Jeżeli Twoja aplikacja używa zewnętrznych plików konfiguracyjnych, pamiętaj, że nie powinny być obe dostepne dla
+zewnętrznego świata. Zalecane jest użycie jednego z poniższych sposobó ich zabezpieczenia:
 
-- It is recommended that you store your configuration information where it cannot be accessed directly and pulled in 
-via the file system.
-- If you must store your configuration files in the document root, name the files with a `.php` extension. This 
-ensures that, even if the script is accessed directly, it will not be outputed as plain text.
-- Information in configuration files should be protected accordingly, either through encryption or group/user file 
-system permissions
+- Trzymaj pliki konfiguracyjne poza DocumentRoot'em, dzięki czemu nie będą dostępne przez serwer WWW.
+- Jeżeli musisz przechowywać je w DocumentRoot'cie, zmień ich rozszerzenie na `.php`. W tym przypadku, nawet jeżeli
+skrypt zostanie wywołany bezpośrednio, jego zawartość nie będzie zwrócona do przeglądarki w oryginalnej formie.
+- Zawartość plików konfiguracyjnych powinna zostać odpowiednio zabezpieczona - albo poprzez ich szyfrowanie, albo przy
+użyciu zabezpieczeń oferowanych przez system plików (zmiana właściciela i/lub praw dostepu).

@@ -1,17 +1,22 @@
 ---
+title: register_globals
 isChild: true
 ---
 
-## Register Globals
+## register_globals
 
-<strong>NOTE:</strong> As of PHP 5.4.0 the `register_globals` setting has been removed and can no 
-longer be used. This is only included as a warning for anyone in the process of upgrading a legacy application.
+<strong>UWAGA:</strong> od wersji PHP 5.4.0 dyrektywa `register_globals` została usunięta i nie ma możliwości
+korzystania niej. Jej dostępność w wersjach >= 5.4.0 ogranicza się do wyświetlenia odpowiedniego komunikatu w przypadku
+omyłkowego użycia.
 
-When enabled, the `register_globals` configuration setting that makes several types of variables (including ones from 
-`$_POST`, `$_GET` and `$_REQUEST`) available in the global scope of your application. This can easily lead to 
-security issues as your application cannot effectively tell where the data is coming from.
+W poprzednich wersjach PHP, po włączeniu dyrektywy `register_globals`, zmienne pochodzące od użytkownika (m.in.
+`$_POST`, `$_GET` i `$_REQUEST`) były "spłaszczane" do zwykłych zmiennych dostępnych w globalnej zakresie widoczności.
+To w łatwy sposób mogło prowadzić do problemów bezpieczeństwa, gdyż aplikacja nie była w stanie stwierdzić skąd
+pochodzą wartości poszczególnych zmiennych.
 
-For example: `$_GET['foo']` would be available via `$foo`, which can override variables that have not been declared. 
-If you are using PHP < 5.4.0 __make sure__ that `register_globals` is __off__.
+Przykładowo, po włączeniu `register_globals`, zmienna `$_GET['foo']` byłaby dostępna jako $foo, co może nadpisać inną
+zmienną $foo i powodować problemy.
 
-* [Register_globals in the PHP manual](http://www.php.net/manual/en/security.globals.php)
+Podsumowując, jeżeli używasz PHP < 5.4.0 __upewnij się__, że dyrektywa `register_globals` ma wartość `__off__`.
+
+* [Artykuł na ten temat w manualu](http://www.php.net/manual/pl/security.globals.php)
