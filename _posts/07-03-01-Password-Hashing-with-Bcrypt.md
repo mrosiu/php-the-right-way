@@ -1,5 +1,5 @@
 ---
-title Hashowanie haseł za pomocą Bcrypt
+title: Hashowanie haseł za pomocą Bcrypt
 isChild: true
 ---
 
