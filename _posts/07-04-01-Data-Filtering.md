@@ -1,17 +1,19 @@
 ---
+title: Filtrowanie danych
 isChild: true
 ---
 
-## Data Filtering
+## Filtrowanie danych
 
-Never ever (ever) trust foreign input introduced to your PHP code. Always sanitize and validate
-foreign input before using it in code. The `filter_var` and `filter_input` functions can sanitize text and validate text formats (e.g.
-email addresses).
+Nigdy, przenigdy nie ufaj zewnętrznym danym wprowadzonym do Twojego kodu. Zawsze waliduj i zabezpieczaj je przed
+użyciem. Możesz użyć do tego funkcji `filter_var()` i `filter_input()`, które pomagają w tych czynnościach. Potrafią
+przykładowo w prosty sposób sprawdzić poprawność składniową wprowadzego przez użytkownika adresu e-mail.
 
-Foreign input can be anything: `$_GET` and `$_POST` form input data, some values in the `$_SERVER`
-superglobal, and the HTTP request body via `fopen('php://input', 'r')`. Remember, foreign input is not
-limited to form data submitted by the user. Uploaded and downloaded files, session values, cookie data,
-and data from third-party web services are foreign input, too.
+Zewnętrzne dane mogą znaleźć się wszędzie: głównym ich źródłem sa tablice `$_GET` i `$_POST` zawierająca parametry
+żądania, niektóre wartości w tablicy `$_SERVER` które pochodzą wprost z nagłówków, które wysyła użytkownik, czy
+`fopen('php://input', 'r')` - ciało żądania HTTP. Pamiętaj, że zewnętrzne dane, to nie tylko dane z formularzy
+wysłanych przez uzytkownika. Pliki, które ściągasz, dane sesji, ciasteczka, czy nawet dane z zewnętrznych
+webservice'ów powinny być traktowane jako dane, którym nie można ufać.
 
 While foreign data can be stored, combined, and accessed later, it is still foreign input. Every
 time you process, output, concatenate, or include data in your code, ask yourself if
@@ -35,7 +37,7 @@ load hidden, non-public, or sensitive files.
 * [Learn about `filter_input`][5]
 * [Learn about handling null bytes][6]
 
-### Sanitization
+### Escaping
 
 Sanitization removes (or escapes) illegal or unsafe characters from foreign input.
 
@@ -48,19 +50,20 @@ page. This is very hard to do and many avoid it by using other more restricted f
 Markdown or BBCode, although whitelisting libraries like [HTML Purifier][html-purifier] exists for
 this reason.
 
-[See Sanitization Filters][2]
+[Lista filtrów escape'ujących][2]
 
-### Validation
+### Walidacja
 
-Validation ensures that foreign input is what you expect. For example, you may want to validate an
-email address, a phone number, or age when processing a registration submission.
+Dzięki walidacji możesz upewnić się, że wprowadzone przez użytkownika dane są tym, czego się spodziewasz. Dobrym
+przykładem jest walidacja danych takich jak adres e-mail, numer telefonu, czy wiek, wprowadzonych w formularzu
+rejestracji.
 
-[See Validation Filters][3]
+[Lista filtrów walidujących][3]
 
-[1]: http://www.php.net/manual/en/book.filter.php
-[2]: http://www.php.net/manual/en/filter.filters.sanitize.php
-[3]: http://www.php.net/manual/en/filter.filters.validate.php
-[4]: http://php.net/manual/en/function.filter-var.php
-[5]: http://www.php.net/manual/en/function.filter-input.php
-[6]: http://php.net/manual/en/security.filesystem.nullbytes.php
+[1]: http://www.php.net/manual/pl/book.filter.php
+[2]: http://www.php.net/manual/pl/filter.filters.sanitize.php
+[3]: http://www.php.net/manual/pl/filter.filters.validate.php
+[4]: http://php.net/manual/pl/function.filter-var.php
+[5]: http://www.php.net/manual/pl/function.filter-input.php
+[6]: http://php.net/manual/pl/security.filesystem.nullbytes.php
 [html-purifier]: http://htmlpurifier.org/
