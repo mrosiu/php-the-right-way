@@ -15,40 +15,41 @@ Zewnętrzne dane mogą znaleźć się wszędzie: głównym ich źródłem sa tab
 wysłanych przez uzytkownika. Pliki, które ściągasz, dane sesji, ciasteczka, czy nawet dane z zewnętrznych
 webservice'ów powinny być traktowane jako dane, którym nie można ufać.
 
-While foreign data can be stored, combined, and accessed later, it is still foreign input. Every
-time you process, output, concatenate, or include data in your code, ask yourself if
-the data is filtered properly and can it be trusted.
+Z uwagi na to, że zewnętrzne dane mogą być przechowywane w bazach danych, należy pamiętać o tym, żeby przy ich odczycie
+również zadbać o ich zabezpieczenie. Za każdym razem, gdy próbujesz użyć takich danych zadaj sobie pytanie, czy są one
+odpowiednio zabezpieczone i czy można im ufać.
 
-Data may be _filtered_ differently based on its purpose. For example, when unfiltered foreign input is passed
-into HTML page output, it can execute HTML and JavaScript on your site! This is known as Cross-Site
-Scripting (XSS) and can be a very dangerous attack. One way to avoid XSS is to sanitize all HTML tags
-in the input by removing tags or escaping them into HTML entities.
+Sposób zabezpieczania zewnętrznych danych zależy od sposobu ich użycia. Przykładowo gdy chcesz użyć danych pochodzących
+od użytkownika w HTML'u, musisz zadbać o usunięcie bądź zamianę znaczników sterujących, takich jak '<', '>' na
+odpowiednie encje HTML, gdyż w przeciwnym razie odpowiednio spreparowany ciąg znaków może uruchomic skrypt JS, co może
+być bardzo niebezpieczne. Taki rodzaj ataku to XSS (Cross-Site Scripting).
 
-Another example is passing options to be executed on the command line. This can be extremely dangerous
-(and is usually a bad idea), but you can use the built-in `escapeshellarg` function to sanitize the executed
-command's arguments.
+Innym przykładem jest przekazywanie danych od użytkownika jako fragment lub całość komendy do wykonania z poziomu linii
+poleceń. Nieodpowiednie zabezpieczenie takich danych przed użyciem w ten sposób może doprowadzić do wykonania
+niepożądanego polecenia, co może być poważnym zagrożeniemn bezpieczeństwa aplikacji i/lub systemu na którym ona działa.
+Aby bezpiecznie przekazać takie dane do wiersza poleceń, zabezpiecz je za pomocą funkcji `escapeshellarg()`.
 
-One last example is accepting foreign input to determine a file to load from the filesystem. This can be exploited by
-changing the filename to a file path. You need to remove "/", "../", [null bytes][6], or other characters from the file path so it can't
-load hidden, non-public, or sensitive files.
+Niebezpieczeństwo może czyhać również tam, gdzie za pomocą danych z zewnątrz ustalasz ścieżkę w systemie plików.
+Atakujący może wykorzystać to poprzez odpowiednią zmianę przekazanych wartości. Twoja aplikacja wczyta wtedy inny plik
+niż powinna, co może spowodować wyciek prywatnych danych lub pomóc w przeprowadzeniu innego ataku. Aby zabezpieczyć się
+przed tym, usuwaj "/", ".." i tzw. "[null bytes][6]" ze zmiennych przy użyciu których ustalasz ścieżkę pliku do
+wczytania.
 
-* [Learn about data filtering][1]
-* [Learn about `filter_var`][4]
-* [Learn about `filter_input`][5]
-* [Learn about handling null bytes][6]
+* [Dowiedz się więcej na temat filtrowania danych][1]
+* [Dowiedz się więcej na temat funkcji `filter_var()`][4]
+* [Dowiedz się więcej na temat funkcji `filter_input()`][5]
+* [Dowiedz się więcej na temat "null bytes"][6]
 
-### Escaping
+### Zabezpieczanie danych z zewnątrz (escaping)
 
-Sanitization removes (or escapes) illegal or unsafe characters from foreign input.
+Dane pochodzące z zewnątrz mogą posiadać niebezpieczne znaki. Aby bezpiecznie się nimi posługiwać w aplikacji
+(przykładowo, aby bezpiecznie skorzystać z danych wejściowych w HTML'u bądź zapytaniu SQL), należy się ich pozbyć.
+Proces ten nazywany jest escapingiem.
 
-For example, you should sanitize foreign input before including the input in HTML or inserting it
-into a raw SQL query. When you use bound parameters with [PDO](#databases), it will
-sanitize the input for you.
-
-Sometimes it is required to allow some safe HTML tags in the input when including it in the HTML
-page. This is very hard to do and many avoid it by using other more restricted formatting like
-Markdown or BBCode, although whitelisting libraries like [HTML Purifier][html-purifier] exists for
-this reason.
+W przypadku zapytań SQL najlepszym sposobem na automatyczne zabezpieczenie się przez niebezpiecznymi znakami jest
+użycie PDO, które zrobi to za Ciebie. Jeżeli chodzi o HTML, częstym wyzwaniem jest konieczność dopuszczenia kilku
+wybranych tagów, abu umożliwić użytkownikowi proste formatowanie wpisanego tekstu. W takim przypadku jednym z wyjść
+jest użycie formatowania Markdown lub BBCode, bądź bibliotek takich jak [HTML Purifier][html-purifier].
 
 [Lista filtrów escape'ujących][2]
 
