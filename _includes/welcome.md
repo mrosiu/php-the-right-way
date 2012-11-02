@@ -43,5 +43,5 @@ pomóc nam promować tę inicjatywę wśród programistów PHP.
 
 [Obejrzyj dostępne banery][2]
 
-[1]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
+[1]: https://github.com/bartosz-maciaszek/php-the-right-way/tree/gh-pages
 [2]: /banners.html
