@@ -1,12 +1,14 @@
 ---
+title: Dodatkowe narzędzia
 isChild: true
 ---
 
-## Complementary Testing Tools
+## Dodatkowe narzędzia
 
-Besides individual testing and behavior driven frameworks, there are also a number of generic frameworks and helper libraries useful for any preferred approach taken.
+Oprócz frameworków wspomagających testowanie, istnieje również wiele innych narzędzi i bibliotek, przydatnych podczas
+testowania aplikacji.
 
-### Tool Links
+### Linki
 
-* [Selenium](http://seleniumhq.org/) is a browser automation tool which can be [integrated with PHPUnit](http://www.phpunit.de/manual/3.1/en/selenium.html)
-* [Mockery](https://github.com/padraic/mockery) is a Mock Object Framework which can be integrated with [PHPUnit](http://phpunit.de/) or [PHPSpec](http://www.phpspec.net/)
+* [Selenium](http://seleniumhq.org/) narzędzie do automatyzacji testów w przeglądarkach, które może być zintegrowany z [PHPUnit](http://www.phpunit.de/manual/3.1/en/selenium.html)
+* [Mockery](https://github.com/padraic/mockery) framework typu Mock Object, który może być zintegrowany z [PHPUnit](http://phpunit.de/) lub [PHPSpec](http://www.phpspec.net/)
