@@ -1,57 +1,57 @@
 ---
+title: Test-Driven Development
 isChild: true
 ---
 
-## Test Driven Development
+## Test-Driven Development
 
-From [Wikipedia](http://en.wikipedia.org/wiki/Test-driven_development):
+Cytując [Wikipedię](http://pl.wikipedia.org/wiki/Test-driven_development):
 
-> Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: first the developer writes a failing automated test case that defines a desired improvement or new function, then produces code to pass that test and finally refactors the new code to acceptable standards. Kent Beck, who is credited with having developed or 'rediscovered' the technique, stated in 2003 that TDD encourages simple designs and inspires confidence
+> Test-driven development (TDD) jest techniką tworzenia oprogramowania, która polega na wielokrotnym powtarzaniu kilku kroków: najpierw programista pisze automatyczny test sprawdzający dodawaną funkcjonalność. Test w tym momencie nie powinien się udać. Później następuje implementacja funkcjonalności. W tym momencie wcześniej napisany test powinien się udać. W ostatnim kroku, programista dokonuje refaktoryzacji napisanego kodu, żeby spełniał on oczekiwane standardy. Technika została stworzona przez Kenta Becka. Można jej też używać do poprawiania istniejącego kodu.
 
-There are several different types of testing that you can do for your application
+Istnieje kilka sposób testowania aplikacji, których możesz użyć podczas rozwijania swojej aplikacji.
 
-### Unit Testing
+### Testy jednostkowe
 
-Unit Testing is a programming approach to ensure functions, classes and methods are working as
-expected, from the point you build them all the way through the development cycle. By checking
-values going in and out of various functions and methods, you can make sure the internal logic is
-working correctly. By using Dependency Injection and building "mock" classes and stubs you can verify that dependencies are correctly used for even better test coverage.
+Testy jednostkowe jest techniką, która umożliwia sprawdzenie, czy funkcje, klasy i metody działają tak, jak powinny -
+przez cały cykl ich życia. Sprawdzanie ich wewnętrznej logiki odbywa się poprzez ich wywoływanie z różnymi parametrami
+wejściowymi i badaniu ich odpowiedzi za pomocą odpowiednich asercji. Jeszcze dokładniejsze wyniki testów oraz bardziej
+kompletne pokrycie kodu testami można uzyskać dzięki wstrzykiwaniu zależności oraz korzystaniu z "mocków".
 
-When you create a class or function you should create a unit test for each behavior it must have. At a very basic level you should
-make sure it errors if you send it bad arguments and make sure it works if you send it valid arguments.
-This will help ensure that when you make changes to this class or function later on in the development
-cycle that the old functionality continues to work as expected. The only alternative to this would be
-var_dump() in a test.php, which is no way to build an application - large or small.
+Kiedy tworzysz klasę lub funkcję, powinieneś napisać test jednostkowy pokrywający i testujący zachowanie, które powinna
+posiadać. Najprostszym przykladem jest stworzenie testu, który sprawdzi, czy dla poprawnych danych wejściowych
+funkcja/metoda działa prawidłowo, a dla złych - odpowiednio to obsługuje. Dzięki temu wykonując kolejne zmiany i
+refaktoryzacje masz pewność, że kod wciąż działa tak jak powinien.
 
-The other use for unit tests is contributing to open source. If you can write a test that shows broken
-functionality (i.e. fails), then fix it, and show the test passing, patches are much more likely to be accepted. If
-you run a project which accepts pull requests then you should suggest this as a requirement.
+Testy jednostkowe znajdują zastosowanie również w open-source - dzięki nim możesz w łatwy sposób pokazać, że dana
+funkcjonalność nie działa prawidłowo, a następnie po wprowadzeniu poprawki sprawdzić, że ona faktycznie działa. Jeżeli
+prowadzisz projekt, w którym korzystasz z tzw. "pull requests", zdecydowanie powinieneś wymagać wykonania odpowiednich
+testów jednostkowych.
 
-[PHPUnit](http://phpunit.de) is the de-facto testing framework for writing unit tests for PHP
-applications, but there are several alternatives
+[PHPUnit](http://phpunit.de) jest najbardziej znanym frameworkiem, dzięki którym łatwo rozpoczniesz korzystanie z
+testów jednostkowych. Są również alternatywy:
 
 * [SimpleTest](http://simpletest.org)
 * [Enhance PHP](http://www.enhance-php.com/)
 * [PUnit](http://punit.smf.me.uk/)
 
-### Integration Testing
+### Testy integracyjne
 
-From [Wikipedia](http://en.wikipedia.org/wiki/Integration_testing):
+Cytując [Wikipedię](http://en.wikipedia.org/wiki/Integration_testing) (polskie tłumaczenie):
 
-> Integration testing (sometimes called Integration and Testing, abbreviated "I&T") is the phase in software testing in which individual software modules are combined and tested as a group. It occurs after unit testing and before validation testing. Integration testing takes as its input modules that have been unit tested, groups them in larger aggregates, applies tests defined in an integration test plan to those aggregates, and delivers as its output the integrated system ready for system testing.
+> Testowanie integracyjne, zwane także Integracją i Testowaniem (ang. Integration and Testing, "I&T") jest fazą produkcji oprogramowania polegającą na automatycznym testowaniu odpowiednich grup modułów jako całość. Testy integracyjne wykonuje się zwykle po wykonaniu odpowiednich testów jednostkowych, a przed testami funkcjonalnymi. Testowanie integracyjne odbywa się na modułach, które zostały przetestowane jednostkowo. Moduły grupuje się w większe zbiory, na których stosuje się odpowiednie testy ujęte w planie testu integracyjnego i dostarcza się zintegrowany produkt, gotowy do testowania funkcjonalnego.
 
-Many of the same tools that can be used for unit testing can be used for integration testing as many
-of the same principles are used.
+Proces wykonywania testów integracyjnych rządzi się zasadami podobnymi do testowania jednostkowego, więc do ich
+wykonywania możesz używać tych samych narzędzi.
 
-### Functional Testing
+### Testy funkcjonalne
 
-Sometimes also known as acceptance testing, functional testing consists of using tools to create automated
-tests that actually use your application instead of just verifying that individual units of code are behaving
-correctly and that individual units can speak to each other correctly. These tools typically work using real
-data and simulating actual users of the application.
+Czasami znane również jako testy akceptacyjne. W odrożnieniu od testów jednostkowych, zamiast konkretnych fragmentów
+kodu, testują one pełną aplikację. Takie testy zwykle korzystają z rzeczywistych danych i symulują zachowanie
+prawdziwych użytkowników.
 
-#### Functional Testing Tools
+#### Narzędzia do testów funkcjonalnych
 
 * [Selenium](http://seleniumhq.com)
 * [Mink](http://mink.behat.org)
-* [Codeception](http://codeception.com) is a full-stack testing framework that includes acceptance testing tools
+* [Codeception](http://codeception.com) framework do testowania zawierający narzędzia do testów akceptacyjnych
