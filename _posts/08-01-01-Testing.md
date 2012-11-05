@@ -1,3 +1,7 @@
+---
+title: Testowanie
+---
+
 # Testowanie
 
 Pisanie testów automatycznych do dobra praktyka zwiększająca prawdopodobnieństwo, że Twoja aplikacja będzie dobrze

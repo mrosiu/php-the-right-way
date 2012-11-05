@@ -1,5 +1,6 @@
 ---
 title: Frameworki
+isChild: true
 ---
 
 # Frameworki
