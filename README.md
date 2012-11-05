@@ -1,6 +1,6 @@
 # PHP: The Right Way
 
-## Ogólnie
+## Start
 
 Witaj w repozytorium GitHub Pages dla polskiego tłumaczenia projektu _PHP: The Right Way_! 
 

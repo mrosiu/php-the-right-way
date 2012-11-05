@@ -1,12 +1,14 @@
 ---
-title: Platform as a Service (PaaS)
+title: Chmura
 isChild: true
 ---
 
-## Platform as a Service (PaaS) 
+## Chmura 
 
-PaaS provides the system and network architecture necessary to run PHP applications on the web. This means little to no 
-configuration for launching PHP applications or PHP frameworks. 
+Chmura, czyli PaaS (skrót od Platform as a Service) dostarcza pełną architekturę, której wymaga Twoja aplikacja PHP, aby być
+dostępna w Sieci. Oznacza to, że za pomocą kilku kliknięć jesteś w stanie uruchomić takie środowisko, a nawet
+zainstalować odpowiednie frameworki, czy biblioteki.
 
-Recently PaaS has become a popular method for deploying, hosting, and scaling PHP applications of all sizes. You can 
-find a list of [PHP PaaS "Platform as a Service" providers](#php_paas_providers) in our [resources section](#resources). 
+Ostatnimi czasy, głównie ze względu na łatwość skalowania apliakcji, rozwiązania oparte o chmurę zdobywają coraz
+większą popularność. [Listę dostawców](#lista_dostawcw_paas) rozwiązań PaaS znajdziesz w rozdziale [linki](#linki);
+ 

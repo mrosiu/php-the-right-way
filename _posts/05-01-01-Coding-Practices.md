@@ -1,1 +1,1 @@
-# Coding Practices
+# Praktyki kodowania

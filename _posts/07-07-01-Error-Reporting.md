@@ -12,7 +12,7 @@ eksponuje systemowe, być może kluczowe z punktu widzenia bezpieczeństwa infor
 ### Środowisko deweloperskie
 
 W środowisku <strong>deweloperskim</strong> lub <strong>testowym</strong>, wyświetlanie komunikatów błędów może być
-przydatne podczas śledzenia problemów z aplikacją. W tym środowisku powinieneś skonfugurować raportowanie błędów w ten
+przydatne podczas śledzenia problemów z aplikacją. W tym środowisku powinieneś skonfigurować raportowanie błędów w ten
 sposób: 
 
 - display_errors: On

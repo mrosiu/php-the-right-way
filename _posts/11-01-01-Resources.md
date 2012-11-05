@@ -1,11 +1,15 @@
-# Resources
+---
+title: Linki
+---
 
-## From the Source
+# Linki
 
-* [PHP Website](http://php.net/)
-* [PHP Documentation](http://php.net/docs.php)
+## Oficjalne strony PHP
 
-## People to Follow
+* [Strona PHP](http://php.net/)
+* [Dokumentacja PHP](http://php.net/docs.php)
+
+## Ludzie związani z PHP
 
 * [Rasmus Lerdorf](http://twitter.com/rasmus)
 * [Fabien Potencier](http://twitter.com/fabpot)
@@ -15,11 +19,11 @@
 * [Matthew Weier O'Phinney](http://twitter.com/weierophinney)
 * [Nikita Popov](http://twitter.com/nikita_ppv)
 
-## Mentoring
+## Doradztwo
 
-* [phpmentoring.org](http://phpmentoring.org/) - Formal, peer to peer mentoring in the PHP community.
+* [phpmentoring.org](http://phpmentoring.org/)
 
-## PHP PaaS Providers
+## Lista dostawców PaaS
 
 * [PagodaBox](https://pagodabox.com/)
 * [PHP Fog](https://phpfog.com/)

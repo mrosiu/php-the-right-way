@@ -1,37 +1,38 @@
 ---
+title: Caching obiektów
 isChild: true
 ---
 
-## Object Caching
+## Caching obiektów
 
-There are times when it can be beneficial to cache individual objects in your code, such as with data that is expensive
-to get or database calls where the result is unlikely to change. You can use object caching software to hold these
-pieces of data in memory for extremely fast access later on. If you save these items to a data store after you retrieve
-them, then pull them directly from the cache for following requests, you can gain a significant improvement in
-performance as well as reduce the load on your database servers.
+Aby przyspieszyć działanie konkretnych funkcjonalności Twojej aplikacji, warto zastanowić się gdzie w kodzie następuje
+odwołanie do źródeł danych, których pobranie jest czasochłonne, a częstość zmian jest niska. W takich sytuacjach warto
+rozważyć możliwość użycia cachingu tychże danych. Caching polega na zapamiętaniu rezultatu działania określonego
+fragmentu kodu w taki sposób, aby później można było wielokrotnie odwołać się do niego, zamiast ponownie wykonywać
+czasochłonną operację. Dzięki odpowiedniemu użyciu cache'a programista może w łatwy sposób zwiększyć szybkość działania
+aplikacji, a także zminimalizować obciążenie serwera.
 
-Many of the popular bytecode caching solutions let you cache custom data as well, so there's even more reason to take
-advantage of them. APC, XCache, and WinCache all provide APIs to save data from your PHP code to their memory cache.
+Większość narzędzi, o których pisałem w poprzednim paragrafie ma funkcję cachingu obiektów. APC, XCache, czy WinCache
+oferują proste API do zapamiętywania wyników działania określonego kodu w ich wewnętrznej pamięci.
 
-The most commonly used memory object caching systems are APC and memcached. APC is an excellent choice for object
-caching, it includes a simple API for adding your own data to its memory cache and is very easy to setup and use. The
-one real limitation of APC is that it is tied to the server it's installed on. Memcached on the other hand is installed
-as a separate service and can be accessed across the network, meaning that you can store objects in a hyper-fast data
-store in a central location and many different systems can pull from it.
+Najbardziej znanymi narzędziami do cache'owania danych w PHP jest APC i memcached. Oba oferują proste API i sa łatwe w
+instalacji i użyciu. Istotną różnicą między nimi jest fakt, że APC, zgodnie ze swoją architekturą, znaduje się na tym
+samym serwerze, co kod, który jest uruchamiany, a memcached jest narzędziem sieciowym, które umożliwia dostęp z wielu
+różnych maszyn, co powoduje, że jest nieznacznie wolniejszy niż APC.
 
-In a networked configuration APC will usually outperform memcached in terms of access speed, but memcached will be able
-to scale up faster and further. If you do not expect to have multiple servers running your application, or do not need
-the extra features that memcached offers then APC is probably your best choice for object caching.
+Wybór jest dosyć prosty: jeżeli zależy Ci na skalowaniu aplikacji, wybierz zorientowany na to memcached. Jeżeli Twoja
+aplikacja będzie działać na jednym serwerze, użyj APC.  
 
-Example logic using APC:
+Przykładowy kod wykorzystujący APC:
 
 {% highlight php %}
 <?php
-// check if there is data saved as 'expensive_data' in cache
+// sprawdź, czy istnieją dane zapisane jako 'expensive_data' w pamięci
 $data = apc_fetch('expensive_data');
 if (!$data)
 {
-    // data not in cache, do expensive call and save for later use
+    // danych nie ma w pamięci, wykonaj czasochłonną operację
+    // i zapamiętaj wynik, aby można było użyć go później. 
     $data = get_expensive_data();
     apc_store('expensive_data', $data);
 }
@@ -39,10 +40,10 @@ if (!$data)
 print_r($data);
 {% endhighlight %}
 
-Learn more about popular object caching systems:
+Narzędzia do cachingu obiektów:
 
-* [APC Functions](http://php.net/manual/en/ref.apc.php)
+* [APC Functions](http://php.net/manual/pl/ref.apc.php)
 * [Memcached](http://memcached.org/)
 * [Redis](http://redis.io/)
-* [XCache APIs](http://xcache.lighttpd.net/wiki/XcacheApi)
-* [WinCache Functions](http://www.php.net/manual/en/ref.wincache.php)
+* [XCache API](http://xcache.lighttpd.net/wiki/XcacheApi)
+* [Funkcje WinCache](http://www.php.net/manual/pl/ref.wincache.php)
