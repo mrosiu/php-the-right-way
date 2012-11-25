@@ -14,9 +14,9 @@ _PHP: The Right Way_ jest (lub niebawem będzie) przetłumaczony na wiele język
 * [Hiszpański](http://es.phptherightway.com)
 * [Japoński](http://ja.phptherightway.com)
 * [Polski](http://pl.phptherightway.com)
-* Portugalski (Wkrótce)
+* [Portugalski](http://br.phptherightway.com/)
 * Rosyjski (Wkrótce)
-* Ukraiński (Wkrótce)
+* [Ukraiński](http://iflista.github.com/php-the-right-way/)
 
 ## Uwaga
 
