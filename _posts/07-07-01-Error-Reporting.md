@@ -16,8 +16,22 @@ przydatne podczas śledzenia problemów z aplikacją. W tym środowisku powinien
 sposób:
 
 - display_errors: On
-- error_reporting: E_ALL
+- error_reporting: -1
 - log_errors: On
+
+Za [php.net](http://pl1.php.net/manual/pl/function.error-reporting.php):
+
+> Passing in the value -1 will show every possible error, even when new levels and constants are added in future PHP versions. The E_ALL constant also behaves this way as of PHP 5.4.
+
+Poziom raportowania `E_STRICT` jest dostępny od wersji 5.3.0 nie będąc częścią poziomu `E_ALL`. W wersji 5.4.0
+zmieniono to zachowanie i `E_STRICT` jest częścią `E_ALL`. Co oznacza to dla programisty? To, że jeżeli potrzebuje
+wyświetlać wszystkie możliwe błędy w 5.3.0, należy użyć wartości `-1` lub `E_ALL | E_STRICT`.
+
+Podsumowując:
+
+* dla PHP &lt; 5.3 - `-1` lub `E_ALL`
+* dla PHP = 5.3 - `-1` lub `E_ALL | E_STRICT`
+* dla PHP &gt; 5.3 - `-1` lub `E_ALL`
 
 ### Środowisko produkcyjne
 
