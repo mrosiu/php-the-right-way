@@ -12,10 +12,10 @@ fragmentu kodu w taki sposób, aby później można było wielokrotnie odwołać
 czasochłonną operację. Dzięki odpowiedniemu użyciu cache'a programista może w łatwy sposób zwiększyć szybkość działania
 aplikacji, a także zminimalizować obciążenie serwera.
 
-Większość narzędzi, o których pisałem w poprzednim paragrafie ma funkcję cachingu obiektów. APC, XCache, czy WinCache
+Większość narzędzi, o których pisałem w poprzednim paragrafie, ma funkcję cachingu obiektów. APC, XCache, czy WinCache
 oferują proste API do zapamiętywania wyników działania określonego kodu w ich wewnętrznej pamięci.
 
-Najbardziej znanymi narzędziami do cache'owania danych w PHP jest APC i memcached. Oba oferują proste API i sa łatwe w
+Najbardziej znanymi narzędziami do cache'owania danych w PHP jest APC i memcached. Oba oferują proste API i są łatwe w
 instalacji i użyciu. Istotną różnicą między nimi jest fakt, że APC, zgodnie ze swoją architekturą, znaduje się na tym
 samym serwerze, co kod, który jest uruchamiany, a memcached jest narzędziem sieciowym, które umożliwia dostęp z wielu
 różnych maszyn, co powoduje, że jest nieznacznie wolniejszy niż APC.

@@ -18,10 +18,10 @@ Linuksie.
 
 Jeżeli chcesz stworzyć środowisko produkcyjne w systemie Windows, najlepszym rozwiązaniem jest użycie serwera IIS7,
 który uznawany jest obecnie za najszybszy i najbardziej stabilny serwer WWW dla Windows. Aby skonfigurować PHP na
-serwerze IIS7 możesz użyć pluginu [phpmanager][phpmanager]. Pomocna może się okazać strona
+serwerze IIS7 możesz użyć pluginu [phpmanager][phpmanager]. Przydatne informacje możesz znaleźć na stronie
 [http://php.iis.net][php-iis].
 
-Pamiętaj o tym, że development aplikacji w systemie znacznie różniącym się od docelowego może prowadzić do problemów
+Pamiętaj o tym, że rozwijanie aplikacji w systemie znacznie różniącym się od docelowego może prowadzić do problemów
 podczas instalacji aplikacji na serwerze produkcyjnym. Jeżeli tworzysz aplikację pod Windowsem, a uruchamiasz ją pod
 Linuksem, rozważ możliwość użycia maszyny wirtualnej. W tym celu zainteresuj się projektami [Vagrant][vagrant], a także
 [Puppet][puppet] lub [Chef][chef].

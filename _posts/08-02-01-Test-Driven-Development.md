@@ -13,13 +13,13 @@ Istnieje kilka sposób testowania aplikacji, których możesz użyć podczas roz
 
 ### Testy jednostkowe
 
-Testy jednostkowe jest techniką, która umożliwia sprawdzenie, czy funkcje, klasy i metody działają tak, jak powinny -
+Testy jednostkowe są techniką, która umożliwia sprawdzenie, czy funkcje, klasy i metody działają tak jak powinny -
 przez cały cykl ich życia. Sprawdzanie ich wewnętrznej logiki odbywa się poprzez ich wywoływanie z różnymi parametrami
 wejściowymi i badaniu ich odpowiedzi za pomocą odpowiednich asercji. Jeszcze dokładniejsze wyniki testów oraz bardziej
 kompletne pokrycie kodu testami można uzyskać dzięki wstrzykiwaniu zależności oraz korzystaniu z "mocków".
 
 Kiedy tworzysz klasę lub funkcję, powinieneś napisać test jednostkowy pokrywający i testujący zachowanie, które powinna
-posiadać. Najprostszym przykladem jest stworzenie testu, który sprawdzi, czy dla poprawnych danych wejściowych
+posiadać. Najprostszym przykładem jest stworzenie testu, który sprawdzi, czy dla poprawnych danych wejściowych
 funkcja/metoda działa prawidłowo, a dla złych - odpowiednio to obsługuje. Dzięki temu wykonując kolejne zmiany i
 refaktoryzacje masz pewność, że kod wciąż działa tak jak powinien.
 

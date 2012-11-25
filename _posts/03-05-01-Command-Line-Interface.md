@@ -6,7 +6,7 @@ isChild: true
 ## Interfejs CLI (Command Line Interface)
 
 PHP znajduje zastosowanie głównie przy tworzeniu aplikacji webowych, ale może być również użyteczny jako język
-skryptowy uruchamiany z poziomu konsoli. Dzięki temu można łatwo automatyzować typowe zadania, jak testowanie
+skryptowy, uruchamiany z poziomu konsoli. Dzięki temu można łatwo automatyzować typowe zadania, jak testowanie
 jednostkowe, proces deploymentu, czy administrację aplikacją.
 
 Skrypty uruchamiane z poziomu konsoli mają dostęp do całego kodu Twojej aplikacji i mogą go uruchamiać w ten sam
@@ -24,10 +24,10 @@ Twoim oczom powinna ukazać się pełna konfiguracja PHP, zbliżona do tej, któ
 Inną ciekawą opcją jest `-a` - umożliwia ona uruchomienie interaktywnej konsoli PHP, podobnej do tej z Ruby'ego, czy
 Pythona.
 
-Aby zapoznać się z pełną listą opcji interfejsu konsolowego, zajrzyć na [tę stronę][cli-options].
+Aby zapoznać się z pełną listą opcji interfejsu konsolowego, zajrzyj na [tę stronę][cli-options].
 
 Jeżeli argumentem wywołania polecenia `php` będzie plik z kodem źródłowym, zostanie on uruchomiony. Uruchamiając skrypt
-z poziomu konsoli otrzymujesz możliwość do dwóch zmiennych - `$argc` i `$argv`. Pierwsza z nich jest liczbą naturalną
+z poziomu konsoli otrzymujesz dostęp do dwóch zmiennych - `$argc` i `$argv`. Pierwsza z nich jest liczbą naturalną,
 reprezentującą ilość przekazanych argumentów wywołania, a druga tablicą z ich wartościami. Ponadto istnieje możliwość
 zwrócenia kodu wyjścia, aby poinformować powłokę, czy skrypt wykonał się poprawnie. Więcej informacji na temat kodów
 wyjścia znajdziesz [tutaj][exit-codes].

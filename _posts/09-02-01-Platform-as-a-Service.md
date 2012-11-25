@@ -5,8 +5,8 @@ isChild: true
 
 ## Chmura 
 
-Chmura, czyli PaaS (skrót od Platform as a Service) dostarcza pełną architekturę, której wymaga Twoja aplikacja PHP, aby być
-dostępna w Sieci. Oznacza to, że za pomocą kilku kliknięć jesteś w stanie uruchomić takie środowisko, a nawet
+Chmura, czyli PaaS (skrót od Platform as a Service), dostarcza pełną architekturę, której wymaga Twoja aplikacja PHP,
+aby być dostępna w Sieci. Oznacza to, że za pomocą kilku kliknięć jesteś w stanie uruchomić takie środowisko, a nawet
 zainstalować odpowiednie frameworki, czy biblioteki.
 
 Ostatnimi czasy, głównie ze względu na łatwość skalowania apliakcji, rozwiązania oparte o chmurę zdobywają coraz

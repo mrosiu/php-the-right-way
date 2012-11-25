@@ -37,6 +37,7 @@ swoją pracę lokalnie.
 * [Angielski](http://www.phptherightway.com)
 * [Chiński](http://wulijun.github.com/php-the-right-way)
 * [Polski](http://pl.phptherightway.com)
+* [Portugalski](http://br.phptherightway.com/)
 
 ### Tłumaczenia
 

@@ -5,7 +5,7 @@ isChild: true
 
 ## Dodatkowe narzędzia
 
-Oprócz frameworków wspomagających testowanie, istnieje również wiele innych narzędzi i bibliotek, przydatnych podczas
+Oprócz frameworków wspomagających testowanie istnieje również wiele innych narzędzi i bibliotek przydatnych podczas
 testowania aplikacji.
 
 ### Linki

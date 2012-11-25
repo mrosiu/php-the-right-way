@@ -6,12 +6,12 @@ isChild: true
 ## Filtrowanie danych
 
 Nigdy, przenigdy nie ufaj zewnętrznym danym wprowadzonym do Twojego kodu. Zawsze waliduj i zabezpieczaj je przed
-użyciem. Możesz użyć do tego funkcji `filter_var()` i `filter_input()`, które pomagają w tych czynnościach. Potrafią
+użyciem. Możesz użyć do tego funkcji `filter_var()` i `filter_input()`, które pomagają w tych czynnościach - potrafią
 przykładowo w prosty sposób sprawdzić poprawność składniową wprowadzego przez użytkownika adresu e-mail.
 
-Zewnętrzne dane mogą znaleźć się wszędzie: głównym ich źródłem sa tablice `$_GET` i `$_POST` zawierająca parametry
-żądania, niektóre wartości w tablicy `$_SERVER` które pochodzą wprost z nagłówków, które wysyła użytkownik, czy
-`fopen('php://input', 'r')` - ciało żądania HTTP. Pamiętaj, że zewnętrzne dane, to nie tylko dane z formularzy
+Zewnętrzne dane mogą znaleźć się wszędzie: głównym ich źródłem sa tablice `$_GET` i `$_POST` zawierające parametry
+żądania. Niektóre wartości w tablicy `$_SERVER` pochodzą wprost z nagłówków, które wysyła użytkownik, czy
+`fopen('php://input', 'r')` - ciało żądania HTTP. Pamiętaj, że zewnętrzne dane to nie tylko dane z formularzy
 wysłanych przez uzytkownika. Pliki, które ściągasz, dane sesji, ciasteczka, czy nawet dane z zewnętrznych
 webservice'ów powinny być traktowane jako dane, którym nie można ufać.
 
@@ -22,7 +22,8 @@ odpowiednio zabezpieczone i czy można im ufać.
 Sposób zabezpieczania zewnętrznych danych zależy od sposobu ich użycia. Przykładowo gdy chcesz użyć danych pochodzących
 od użytkownika w HTML'u, musisz zadbać o usunięcie bądź zamianę znaczników sterujących, takich jak '<', '>' na
 odpowiednie encje HTML, gdyż w przeciwnym razie odpowiednio spreparowany ciąg znaków może uruchomic skrypt JS, co może
-być bardzo niebezpieczne. Taki rodzaj ataku to XSS (Cross-Site Scripting).
+być bardzo opłakane w skutkach - może przykładowo pomóc w przejęciu sesji użytkownika. Taki rodzaj ataku to XSS
+(Cross-Site Scripting).
 
 Innym przykładem jest przekazywanie danych od użytkownika jako fragment lub całość komendy do wykonania z poziomu linii
 poleceń. Nieodpowiednie zabezpieczenie takich danych przed użyciem w ten sposób może doprowadzić do wykonania
@@ -42,13 +43,13 @@ wczytania.
 
 ### Zabezpieczanie danych z zewnątrz (escaping)
 
-Dane pochodzące z zewnątrz mogą posiadać niebezpieczne znaki. Aby bezpiecznie się nimi posługiwać w aplikacji
-(przykładowo, aby bezpiecznie skorzystać z danych wejściowych w HTML'u bądź zapytaniu SQL), należy się ich pozbyć.
-Proces ten nazywany jest escapingiem.
+Dane pochodzące z zewnątrz mogą posiadać niebezpieczne znaki. Aby bezpiecznie się nimi posługiwać w aplikacji (np. aby
+bezpiecznie skorzystać z danych wejściowych w HTML'u bądź zapytaniu SQL), należy się ich pozbyć. Proces ten nazywany
+jest escapingiem.
 
 W przypadku zapytań SQL najlepszym sposobem na automatyczne zabezpieczenie się przez niebezpiecznymi znakami jest
 użycie PDO, które zrobi to za Ciebie. Jeżeli chodzi o HTML, częstym wyzwaniem jest konieczność dopuszczenia kilku
-wybranych tagów, abu umożliwić użytkownikowi proste formatowanie wpisanego tekstu. W takim przypadku jednym z wyjść
+wybranych tagów, aby umożliwić użytkownikowi proste formatowanie wpisanego tekstu. W takim przypadku jednym z wyjść
 jest użycie formatowania Markdown lub BBCode, bądź bibliotek takich jak [HTML Purifier][html-purifier].
 
 [Lista filtrów escape'ujących][2]

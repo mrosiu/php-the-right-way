@@ -5,7 +5,7 @@ isChild: true
 
 ## Wyjątki
 
-Wyjątki dostępne są większości języków programowania, lecz programiści PHP często je pomijają. Języki takie jak Ruby
+Wyjątki dostępne są w większości języków programowania, lecz programiści PHP często je pomijają. Języki takie jak Ruby
 często używają wyjątków. Za każdym razem, gdy coś pójdzie nie tak, nieważne, czy jest to problem z wykonaniem żądania
 HTTP, zapytania SQL, czy nawet ze znalezieniem pliku, Ruby rzuca wyjątek. Dzięki temu z łatwością można odnaleźć
 przyczynę problemu.
@@ -13,11 +13,11 @@ przyczynę problemu.
 W PHP niestety nie ma tak dobrze. Funkcja `file_get_contents()` w przypadku nieznalezienia żądanego pliku zwraca
 `false` i komunikat błędu. Wiele starych frameworków, takich jak CodeIgniter w przypadku błędu zwraca po prostu `false`
 i loguje komunikat do swojego własnego źródła, w najlepszym razie dając Ci do dyspozycji metodę a'la
-`$this->upload->get_error()` abyś sprawdził sobie co poszło nie tak. Problemem jest to, że musisz wiedzieć o tym lub
-szukać rozwiązania w dokumnetacji, zamiast otrzymać jasny komunikat w postaci wyjątku.
+`$this->upload->get_error()`, abyś sprawdził sobie co poszło nie tak. Problemem jest to, że musisz o tym wiedzieć lub
+szukać rozwiązania w dokumentacji, zamiast otrzymać jasny komunikat w postaci wyjątku.
 
-Innym problemem jest fakt, że zwykle w przypadku błędu aplikacje wyświetlają komunikat błędu na stronie kończą
-wykonywanie skryptu przez `exit` przez co developerzy tracą możliwość dynamicznego obsłużenia takiego przypadku.
+Innym problemem jest fakt, że zwykle w przypadku błędu aplikacje wyświetlają komunikat błędu na stronie i kończą
+wykonywanie skryptu przez `exit`, przez co developerzy tracą możliwość dynamicznego obsłużenia takiego przypadku.
 Naprzeciw temu wychodzą wyjątki, które informują dewelopera o problemie i pozwalają mu podjąć odpowiednie kroki.
 Przykład:
 

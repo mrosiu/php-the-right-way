@@ -5,9 +5,9 @@ isChild: true
 ## Behavior Driven Development
 
 Istnieją dwa rodzaje BDD (Behavior-Driven Development): SpecBDD i StoryBDD. Pierwszy z nich charakteryzuje się
-technicznym podejściem, gdzie istotny jest kod i jego zachowania, podczas gdy drugi reprezentuje podejście biznesowe,
+technicznym podejściem, gdzie istotny jest kod i jego zachowanie, podczas gdy drugi reprezentuje podejście biznesowe,
 gdzie najważnieszą kwestią jest to jak produkt będzie funkcjonował z perspektywy klienta. W PHP dostępne sa frameworki
-spierające oba te typy.
+wspierające oba te typy.
 
 W StoryBDD piszesz zrozumiałe dla człowieka historyjki, które opisują zachowanie Twojej aplikacji. Są one później
 uruchamiane jako testy aplikacji. Frameworkiem, który wspiera taki typ testowania jest [Behat](http://behat.org/),

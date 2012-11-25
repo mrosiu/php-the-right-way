@@ -16,11 +16,11 @@ Frameworki dzielą się na trzy główne typy:
 * tzw. Full-Stack Frameworks
 * Frameworki komponentowe
 
-Istotą mikroframeworków jest możliwie najszybsze zmapowanie żądania na HTTP na konkretną logikę (callback, kontroler,
+Istotą mikroframeworków jest możliwie najszybsze zmapowanie żądania HTTP na konkretną logikę (callback, kontroler,
 metodę). Czasem wyposażone są w podstawowe biblioteki do komunikacji z bazą danych, systemem szablonów, itp. Głównym
 ich zastosowaniem są małe aplikacje, API i inne serwisy HTTP.
 
-Część frameworków, oprócz logiki związanej z mapowaniem żądań na konkretne metody oferuje spory zestaw bibliotek
+Część frameworków, oprócz logiki związanej z mapowaniem żądań na konkretne metody, oferuje spory zestaw bibliotek
 przydatnych podczas budowania wszelkiego rodzaju aplikacji, takich jak ORM'y, systemy kontroli dostępu, itp. Takie
 frameworki określane są mianem "Full-Stack Frameworks".
 

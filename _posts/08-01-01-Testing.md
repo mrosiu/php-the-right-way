@@ -9,4 +9,5 @@ zbudowana. Uruchamiając testy automatyczne podczas kodowania upewniasz się, ż
 innych rejonów aplikacji. Korzystaj z nich, jeżeli możesz.
 
 Istnieje kilka sposobów automatycznego testowania kodu aplikacji napisanych w PHP. Każdy z nich ma na celu zredukowanie
-nakładu na ręczne testowanie, co oczywiście przekłada się na mniejsze zespoły testowe.
+nakładu na ręczne testowanie, co oczywiście przekłada się na mniejsze zespoły testowe, a w efekcie do ograniczenia
+kosztów projektu.

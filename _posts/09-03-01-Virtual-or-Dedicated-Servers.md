@@ -5,7 +5,7 @@ isChild: true
 
 ## Serwery wirtualne lub dedykowane
 
-Jeżeli potrafisz administrować serwerem, bądź planujesz naukę w tym kierunku, zainteresuj się serwerami wirtualnymi.
+Jeżeli potrafisz administrować serwerem bądź planujesz naukę w tym kierunku, zainteresuj się serwerami wirtualnymi.
 Dzięki nim masz możliwość skonfigurowania każdego detalu swojego środowiska produkcyjnego.
 
 ### nginx i PHP-FPM
@@ -32,9 +32,9 @@ to najszybszy sposób, który wymaga relatywnie niewielkiego nakładu pracy admi
 dla osób, które wolą ten czas przeznaczyć na kodowanie. Minusem jest fakt, że mod_php5 zużywa więecj zasobów, co może
 wpłynąć na szybkość działania.
 
-Jeżeli chcesz wycisnąć z Apache'a nieco więcej stabilności oraz szybkości działania, możesz użyć tego samego systemu
+Jeżeli chcesz wycisnąć z Apache'a nieco więcej szybkości oraz stabilności działania, możesz użyć tego samego systemu
 FPM, który współdziała z serwerem nginx i uruchomić mpm_worker (http://httpd.apache.org/docs/2.4/mod/worker.html)
-lub [mpm_event](http://httpd.apache.org/docs/2.4/mod/event.html) z mod_fastcgi or mod_fcgid. Aplikacje uruchomione w
+lub [mpm_event](http://httpd.apache.org/docs/2.4/mod/event.html) z mod_fastcgi lub mod_fcgid. Aplikacje uruchomione w
 takiej konfiguracji będą działać szybciej, ale jej instalacja będzie wymagała większego nakładu pracy.
 
 * [Czytaj o serwerze Apache](http://httpd.apache.org/)

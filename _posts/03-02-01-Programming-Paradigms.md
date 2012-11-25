@@ -5,7 +5,7 @@ isChild: true
 
 ## Paradygmaty programowania w PHP
 
-PHP jest językiem w którym możesz programować na wiele sposobów. Przez ostatnie lata mocno rozwinął swoje możliwości.
+PHP jest językiem, w którym możesz programować na wiele sposobów. Przez ostatnie lata mocno rozwinął swoje możliwości.
 W wersji 5.0 (2004) dodano zupełnie nowy model programowania obiektowego, w 5.3 (2009) wprowadzono m.in. [anonimowe
 funkcje][anonymous-functions] i [przestrzenie nazw][namespaces], a w 5.4 (2012) - [traity][traits].
 
@@ -39,7 +39,7 @@ z funkcjami anonimowymi praktycznie w każdej sytuacji.
 
 PHP wspiera metaprogramowanie udostępniając mechanizmy takie jak Reflection API i magiczne metody - m.in. `__get()`,
 `__set()`, `__call()`, `__callStatic()`, `__clone()`, `__toString()` i `__invoke()`, które umożliwiają programiście
-podpięcie konkretnych zdarzeń pod pewne zachowania klas.
+wywołanie danego kodu podczas konkretnych zdarzeń w cyklu życia obiektu.
 
 * [Artykuł o Reflection API][reflection]
 * [Artykuł o magicznych metodach][magic-methods]

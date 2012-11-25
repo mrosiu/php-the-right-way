@@ -7,7 +7,7 @@ title: Jak formatować kod
 Społeczność zgromadzona wokół języka PHP jest relatywnie duża i zróżnicowana, dzięki czemu powstało wiele bibliotek,
 frameworków i komponentów. Typową praktyką stosowaną przez programistów PHP jest wybór kilku takich składników i
 stworzenie na bazie tego własnego projektu. Stąd istotną sprawą jest to, aby te biblioteki stosowały wspólne konwencje
-i styl kodowania
+i styl kodowania.
 
 Aby wyjść temu problemowi naprzeciw, [Framework Interop Group][fig] (znane także jako 'PHP Standards Group')
 wypracowało serię rekomendacji dotyczących stylu kodowania znanych jako [PSR-0][psr0], [PSR-1][psr1] i [PSR-2][psr2].
@@ -16,9 +16,9 @@ konwencje te stosują m.in. takie projekty jak Drupal, Zend Framework, CakePHP, 
 Oczywiście stosowanie tych zaleceń nie jest obowiązkowe, równie dobrze możesz towrzyć kod używając swojego własnego
 stylu.
 
-Decydując się na używanie PSR ułatwiasz potencjalnym programistom, którzy będę z Tobą współpracować zrozumienie Twojego
-kodu. Struktura dokumentów PSR jest rozganizowana w ten sposób, że stosowanie PSR-1 wymusza stosowanie PSR-0, ale nie
-PSR-2, itd.
+Decydując się na używanie PSR, ułatwiasz potencjalnym programistom, którzy będę z Tobą współpracować, zrozumienie
+Twojego kodu. Struktura dokumentów PSR jest zorganizowana w ten sposób, że stosowanie PSR-1 wymusza stosowanie PSR-0,
+ale nie PSR-2, itd.
 
 * [Dowiedz się więcej o PSR-0][psr0]
 * [Dowiedz się więcej o PSR-1][psr1]

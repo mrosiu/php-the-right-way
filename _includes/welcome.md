@@ -1,6 +1,6 @@
 # Witaj!
 
-W Sieci można znaleźć wiele publikacji na temat PHP. Niestety, wiele z nich jest nieaktualnych, niekompletnych, lub nie
+W Sieci można znaleźć wiele publikacji na temat PHP. Niestety, wiele z nich jest nieaktualnych, niekompletnych lub nie
 odnosi się do aktualnych dostępnych wersji. Wprowadza to wszechobecny zamęt i prowadzi nowych fanów tego języka na
 przysłowiowe manowce. Tak dalej być nie może. _PHP: The Right Way_ jest przystępnym zbiorem najlepszych praktyk i
 standarów kodowania, a także linków do sprawdzonych i solidnych tutoriali pałętających się w czeluściach Internetu. 
@@ -20,14 +20,14 @@ _PHP: The Right Way_ jest (lub niebawem będzie) przetłumaczony na wiele język
 
 ## Uwaga
 
-Nie istnieje żaden standardowy sposób, który mówiłby w jaki sposób powinieneś korzystać z PHP. Ta strona stara się
-jednakże zebrać w jednym miejscu najlepsze praktyki, najważniejsze możliwości języka oraz inne cenne informacje. Ta
-swoista pigułka przeznaczona jest zarówno dla początkujących programistów, rozpoczynających swoją zabawę z PHP, jak dla
-zaawansowanych wyjadaczy, którzy zagłębiając się w jej lekturze będą mieli możliwość przemyślenia ich dotychczasowych
-przyzwyczajeń bądź poznania najlepszych rozwiązań.
+Nie istnieje żaden standardowy sposób, który określałby w jaki sposób powinieneś korzystać z PHP. Dokument ten ma
+jednakże na celu zebrać w jednym miejscu najlepsze praktyki, najważniejsze możliwości języka oraz inne cenne
+informacje i przeznaczony jest zarówno dla początkujących programistów, rozpoczynających swoją zabawę z PHP, jak dla
+zaawansowanych wyjadaczy, którzy zagłębiając się w jego lekturze będą mieli możliwość przemyślenia swoich
+dotychczasowych przyzwyczajeń bądź poznania najlepszych rozwiązań.
 
 Dokument ten jest wciąż rozwijany oraz uzupełniany o kolejne materiały i przykłady. Jeżeli chciałbyś pomóc w jego
-rozwoju, przeczytaj poniższy akapit.
+rozwoju, bądź masz uwagi do bieżącego tłumaczenia, przeczytaj poniższy akapit.
 
 ## Jak mogę pomóc?
 

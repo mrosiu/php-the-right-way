@@ -5,8 +5,8 @@ isChild: true
 
 ## Data i czas
 
-W PHP istnieje wbudowana klasa `DateTime`, która dostarcza spójny obiektowy interfejs do zarządzania datami i czasem.
-Przy jej użyciu możesz łatwo wykonywać operacje takie jak odczyt, zapis, porównywanie oraz różne obliczenia, nawet w
+W PHP istnieje wbudowana klasa `DateTime`, która dostarcza spójny, obiektowy interfejs do zarządzania datami i czasem.
+Dzięki niej możesz łatwo wykonywać operacje takie jak odczyt, zapis, porównywanie oraz różne obliczenia, nawet w
 wielu strefach czasowych. PHP oferuje również zwykłe funkcje, które potrafią wykonywać takie operacje, lecz wiodły one
 prym w starszych dystrybucjach, gdzie `DateTime` nie było jeszcze dostępne.
 
@@ -22,11 +22,11 @@ $start = \DateTime::createFromFormat('d.m.Y', $raw);
 echo "Data rozpoczęcia: " . $start->format('Y-m-d') . "\n";
 {% endhighlight %}
 
-Operacje arytmetycznena obiekcie `DateTime` najłatwiej wykonuje się z pomocą klasy `DateInterval`. `DateTime` posiada
-metody `add()` i `sub()`, które przyjmują obiekt klasy `DateInterval` jako argument - dzięki temu będziesz mógł
-zapomnieć o problemach związanych ze strefami czasowymi oraz istnieniem czasu letniego i zimowego. Przykładowo, aby
-obliczyć interwał czasu między dwiema datami, stosuj metodę `diff()`. Zwraca ona obiekt `DateInterval`, który bez
-zbędnych obliczeń zamienisz na zrozumiały dla użytkownika ciąg znaków.
+Operacje arytmetyczne na obiekcie `DateTime` najłatwiej wykonuje się za pomocą klasy `DateInterval`. `DateTime` posiada
+metody `add()` i `sub()`, które przyjmują obiekt klasy `DateInterval` jako argument - dzięki temu możesz zapomnieć o
+problemach związanych ze strefami czasowymi oraz istnieniem czasu letniego i zimowego. Przykładowo, aby obliczyć
+interwał czasu między dwiema datami, możesz użyć metody `diff()`. Zwraca ona obiekt `DateInterval`, który bez zbędnych
+obliczeń zamienisz na zrozumiały dla użytkownika ciąg znaków.
 
 {% highlight php %}
 <?php
@@ -43,7 +43,7 @@ Stosując obiekty `DateTime` możesz używać zwykłych operatorów porównania:
 {% highlight php %}
 <?php
 if($start < $end) {
-    echo "Rozpoczęcie ma miejsce przed zakónczeniem!\n";
+    echo "Rozpoczęcie ma miejsce przed zakończeniem!\n";
 }
 {% endhighlight %}
 

@@ -17,4 +17,4 @@ Otóż wszystko zależy od tego w jaki sposób chcesz go użyć.
 
 Innymi słowy, pakiety Composera będą dostępne jedynie w projekcie, dla którego je przygotujesz, podczas gdy biblioteki
 PEARa będą dostępne dla wszystkich aplikacji w obrębie instalacji PHP. Mimo, że PEAR wydaje się być łatwiejszym
-podejściem, istnieje wiele przesłanek, aby zarządzać swoimi zależnościami per projekt. 
+podejściem, istnieje wiele przesłanek, aby zarządzać swoimi zależnościami per projekt, czyli używając Composera.

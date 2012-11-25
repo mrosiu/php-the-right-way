@@ -6,7 +6,7 @@ isChild: true
 ## Pliki konfiguracyjne
 
 Jeżeli Twoja aplikacja używa zewnętrznych plików konfiguracyjnych, pamiętaj, że nie powinny być obe dostepne dla
-zewnętrznego świata. Zalecane jest użycie jednego z poniższych sposobó ich zabezpieczenia:
+zewnętrznego świata. Zalecane jest użycie jednego z poniższych sposobów ich zabezpieczenia:
 
 - Trzymaj pliki konfiguracyjne poza DocumentRoot'em, dzięki czemu nie będą dostępne przez serwer WWW.
 - Jeżeli musisz przechowywać je w DocumentRoot'cie, zmień ich rozszerzenie na `.php`. W tym przypadku, nawet jeżeli
