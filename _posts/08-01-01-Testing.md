@@ -2,7 +2,7 @@
 title: Testowanie
 ---
 
-# Testowanie
+# Testowanie {#testing_title}
 
 Pisanie testów automatycznych do dobra praktyka zwiększająca prawdopodobnieństwo, że Twoja aplikacja będzie dobrze
 zbudowana. Uruchamiając testy automatyczne podczas kodowania upewniasz się, że zmiany, które wprowadzasz nie psują

@@ -3,7 +3,7 @@ title: Serwery hostingowe
 isChild: true
 ---
 
-## Serwery hostingowe
+## Serwery hostingowe {#shared_servers_title}
 
 PHP dzięki swojej popularności jest szeroko wspierany na serwerach hostingowych na całym świecie. Mówiąc szczerze,
 trudno w dzisiejszych czasach znaleźć ofertę bez wsparcia dla tego języka. Liczbę ofert godnych zainteresowania

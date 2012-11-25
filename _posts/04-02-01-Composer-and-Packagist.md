@@ -3,7 +3,7 @@ title: Composer i Packagist
 isChild: true
 ---
 
-## Composer i Packagist
+## Composer i Packagist {#composer_and_packagist_title}
 
 Composer jest **genialnym** systemem wspomagającym zarządzanie zależnościami aplikacji w PHP. Wystarczy jeżeli
 wylistujesz swoje zależności w pliku `composer.json`, a narzędzie to, przy użyciu kilku prostych poleceń, automagicznie

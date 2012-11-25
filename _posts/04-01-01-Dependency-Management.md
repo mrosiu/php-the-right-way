@@ -2,7 +2,7 @@
 title: Zarządzanie zależnościami
 ---
 
-# Zarządzanie zależnościami
+# Zarządzanie zależnościami {#dependency_management_title}
 
 PHP posiada tysiące bibliotek, frameworków i komponentów. Tworząc swój projekt wybierzezsz prawdopodobnie kilka z nich
 - będą to jego zależności. Przez wiele lat PHP nie posiadał sprawnie działającego sposobu na zarządzanie zależnościami.

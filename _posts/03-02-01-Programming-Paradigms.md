@@ -3,7 +3,7 @@ title: Paradygmaty programowania w PHP
 isChild: true
 ---
 
-## Paradygmaty programowania w PHP
+## Paradygmaty programowania w PHP {#programming_paradigms_title}
 
 PHP jest językiem, w którym możesz programować na wiele sposobów. Przez ostatnie lata mocno rozwinął swoje możliwości.
 W wersji 5.0 (2004) dodano zupełnie nowy model programowania obiektowego, w 5.3 (2009) wprowadzono m.in. [anonimowe

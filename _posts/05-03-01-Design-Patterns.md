@@ -3,7 +3,7 @@ title: Wzorce projektowe
 isChild: true
 ---
 
-## Wzorce projektowe
+## Wzorce projektowe {#design_patterns_title}
 
 Wzorce projektowe bywają bardzo pomocne podczas tworzenia aplikacji. Dzięki ich użyciu, prościej jest zarządzać swoim
 kodem, a innym deweloperom - zrozumieć jak działają jego wewnętrzne mechanizmy.

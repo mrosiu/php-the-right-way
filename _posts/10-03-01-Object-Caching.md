@@ -3,7 +3,7 @@ title: Caching obiektów
 isChild: true
 ---
 
-## Caching obiektów
+## Caching obiektów {#object_caching_title}
 
 Aby przyspieszyć działanie konkretnych funkcjonalności Twojej aplikacji, warto zastanowić się gdzie w kodzie następuje
 odwołanie do źródeł danych, których pobranie jest czasochłonne, a częstość zmian jest niska. W takich sytuacjach warto

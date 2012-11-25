@@ -3,7 +3,7 @@ title: register_globals
 isChild: true
 ---
 
-## register_globals
+## register_globals {#register_globals_title}
 
 <strong>UWAGA:</strong>
 Od wersji PHP 5.4.0 dyrektywa `register_globals` została usunięta i nie ma możliwości korzystania niej. Jej dostępność

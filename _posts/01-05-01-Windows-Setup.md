@@ -3,7 +3,7 @@ title: Instalacja w systemie Windows
 isChild: true
 ---
 
-## Instalacja w systemie Windows
+## Instalacja w systemie Windows {#windows_setup_title}
 
 PHP w systemie Windows można zainstalować na kilka sposobów. Pierwszym z nich jest instalacja
 [binariów](php-downloads). Do wersji 5.3.0 można było korzystać z instalatora .msi, obecnie ten sposób instalacji

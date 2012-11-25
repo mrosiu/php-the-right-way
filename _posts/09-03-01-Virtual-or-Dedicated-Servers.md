@@ -3,7 +3,7 @@ title: Serwery wirtualne lub dedykowane
 isChild: true
 ---
 
-## Serwery wirtualne lub dedykowane
+## Serwery wirtualne lub dedykowane {#virtual_or_dedicated_servers_title}
 
 Jeżeli potrafisz administrować serwerem bądź planujesz naukę w tym kierunku, zainteresuj się serwerami wirtualnymi.
 Dzięki nim masz możliwość skonfigurowania każdego detalu swojego środowiska produkcyjnego.

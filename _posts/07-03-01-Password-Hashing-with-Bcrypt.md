@@ -3,7 +3,7 @@ title: Kodowanie haseł za pomocą Bcrypt
 isChild: true
 ---
 
-## Kodowanie haseł za pomocą Bcrypt
+## Kodowanie haseł za pomocą Bcrypt {#password_hashing_with_bcrypt_title}
 
 Każdy programista napisze pewnego dnia aplikację, w której jedną z funkcjonalności będzie możliwość zalogowania się
 użytkownika. W takiej aplikacji, dane autoryzacyjne (login i hasło) zwykle przechowywane są w bazie danych, aby za ich

@@ -3,7 +3,7 @@ title: Frameworki
 isChild: true
 ---
 
-## Frameworki
+## Frameworki {#frameworks_title}
 
 Aby nie odkrywać koła na nowo, wielu programistów PHP do tworzenia swoich aplikacji używa frameworków, które zajmują
 się niskopoziomowymi i typowymi operacjami. Dzięki temu programista może skupić się na tym, co bardziej istotne - na

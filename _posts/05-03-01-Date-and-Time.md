@@ -3,7 +3,7 @@ title: Data i czas
 isChild: true
 ---
 
-## Data i czas
+## Data i czas {#date_and_time_title}
 
 W PHP istnieje wbudowana klasa `DateTime`, która dostarcza spójny, obiektowy interfejs do zarządzania datami i czasem.
 Dzięki niej możesz łatwo wykonywać operacje takie jak odczyt, zapis, porównywanie oraz różne obliczenia, nawet w

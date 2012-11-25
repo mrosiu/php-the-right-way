@@ -2,7 +2,7 @@
 title: Linki
 ---
 
-# Linki
+# Linki {#resources_title}
 
 ## Oficjalne strony PHP
 
@@ -25,7 +25,7 @@ title: Linki
 
 * [phpmentoring.org](http://phpmentoring.org/)
 
-## Lista dostawców PaaS
+## Lista dostawców PaaS {#paas_providers}
 
 * [PagodaBox](https://pagodabox.com/)
 * [PHP Fog](https://phpfog.com/)

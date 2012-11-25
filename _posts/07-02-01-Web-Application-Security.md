@@ -3,7 +3,7 @@ title: Bezpieczeństwo aplikacji webowych
 isChild: true
 ---
 
-## Bezpieczeństwo aplikacji webowych
+## Bezpieczeństwo aplikacji webowych {#web_application_security_title}
 
 Na świecie istnieją dranie, którzy chcieliby wykorzystać Twoją aplikację do niecnych celów. Jako deweloper, powinieneś
 być świadomy zagrożeń, które czyhają z ich strony i w odpowiedni sposób zabezpiczeyć swoją aplikację, aby ich uniknąć.

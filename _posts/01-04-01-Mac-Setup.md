@@ -3,7 +3,7 @@ title: Instalacja na Maku
 isChild: true
 ---
 
-## Instalacja na Maku
+## Instalacja na Maku {#mac_setup_title}
 
 W systemie OSX PHP jest zainstalowane domyślnie, lecz nie jest to najświeższa wersja. Wersja "Lion" posiada PHP 5.3.6,
 a "Mountain Lion" - 5.3.10. 

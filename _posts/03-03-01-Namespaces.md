@@ -3,7 +3,7 @@ title: Przestrzenie nazw
 isChild: true
 ---
 
-## Przestrzenie nazw
+## Przestrzenie nazw {#namespaces_title}
 
 Jak wspomniano wcześniej, społeczność PHP jest tworzona przez niezliczoną ilość programistów. Powoduje to, że może
 zdarzyć się sytuacja, w której dwie rózne biblioteki użyją klasy o takiej samej nazwie. W takim przypadku pojawi się

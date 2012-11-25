@@ -3,7 +3,7 @@ title:   Biblioteka standardowa (SPL)
 isChild: true
 ---
 
-## Biblioteka standardowa (SPL)
+## Biblioteka standardowa (SPL) {#standard_php_library_title}
 
 Biblioteka standardowa (SPL, Standard PHP Library) jest zbiorem klas i interfejsów, które zapewniają dostępność
 typowych struktur danych (stos, kolejka, kopiec, itp) oraz iteratorów zdolnych do trawersowania po nich. W SPL

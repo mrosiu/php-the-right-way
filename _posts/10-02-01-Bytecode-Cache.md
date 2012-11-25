@@ -3,7 +3,7 @@ title: Kod bajtowy
 isChild: true
 ---
 
-## Kod bajtowy
+## Kod bajtowy {#bytecode_cache_title}
 
 Kiedy wykonujemy program napisany w PHP, jego kod źródłowy jest najpierw kompilowany do postaci kodu bajtowego, a
 następnie uruchamiany. Jeżeli między kolejnymi uruchomieniami plik z kodem nie zostaje zmodyfikowany, wynikowy kod

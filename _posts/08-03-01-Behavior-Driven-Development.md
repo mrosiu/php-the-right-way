@@ -2,7 +2,7 @@
 isChild: true
 ---
 
-## Behavior Driven Development
+## Behavior Driven Development {#behavior_driven_development_title}
 
 Istnieją dwa rodzaje BDD (Behavior-Driven Development): SpecBDD i StoryBDD. Pierwszy z nich charakteryzuje się
 technicznym podejściem, gdzie istotny jest kod i jego zachowanie, podczas gdy drugi reprezentuje podejście biznesowe,

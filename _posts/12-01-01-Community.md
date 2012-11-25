@@ -2,7 +2,7 @@
 title: Społeczność
 ---
 
-# Społeczność
+# Społeczność {#community_title}
 
 Społeczność PHP, zarówno w Polsce, jak i na całym świecie, jest duża, różnorodna i chętna do pomocy młodym adeptom tego
 języka programowania. Jeżeli w Twojej okolicy jest grupa użytkowników PHP, rozważ wstąpienie w jej szeregi. Bierz

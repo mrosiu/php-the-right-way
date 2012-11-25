@@ -1,4 +1,4 @@
-# Caching
+# Caching {#caching_title}
 
 PHP sam w sobie całkiem dobrze radzi sobie z wydajnością, lecz jeżeli wykonujesz operacje kosztowne czasowo (np.
 komunikujesz się ze zdalnymi serwerami, czy ładujesz do pamięci duże pliki), może okazać się, że te miejsca niegatywnie

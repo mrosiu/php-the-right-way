@@ -3,7 +3,7 @@ title: Pliki konfiguracyjne
 isChild: true
 ---
 
-## Pliki konfiguracyjne
+## Pliki konfiguracyjne {#configuration_files_title}
 
 Jeżeli Twoja aplikacja używa zewnętrznych plików konfiguracyjnych, pamiętaj, że nie powinny być obe dostepne dla
 zewnętrznego świata. Zalecane jest użycie jednego z poniższych sposobów ich zabezpieczenia:

@@ -3,7 +3,7 @@ title: Dodatkowe narzędzia
 isChild: true
 ---
 
-## Dodatkowe narzędzia
+## Dodatkowe narzędzia {#complementary_testing_tools_title}
 
 Oprócz frameworków wspomagających testowanie istnieje również wiele innych narzędzi i bibliotek przydatnych podczas
 testowania aplikacji.

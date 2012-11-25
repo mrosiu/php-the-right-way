@@ -2,7 +2,7 @@
 title: Bazy danych
 ---
 
-# Bazy danych
+# Bazy danych {#databases_title}
 
 Tworząc aplikacje webowe, wielokrotnie staniesz przed koniecznością przechowania pewnych informacji. Służą do tego
 bazy danych. PHP wspiera wiele różnych silników baz danych. Zalecanym sposobem komunikacji z bazami danych _do wersji

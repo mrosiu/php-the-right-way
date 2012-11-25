@@ -3,7 +3,7 @@ title: Korzystaj z ostatniej stabilnej wersji
 isChild: true
 ---
 
-## Korzystaj z ostatniej stabilnej wersji
+## Korzystaj z ostatniej stabilnej wersji {#use_the_current_stable_version_title}
 
 Jeżeli dopiero rozpoczynasz swoją przygodę z PHP, upewnij się, że korzystasz z ostatniej stabilnej wersji (obecnie
 [PHP 5.4][php-release]). PHP jest silnie rozwijane i twórcy tego języka wciąż dodają do niego

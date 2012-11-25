@@ -3,7 +3,7 @@ title: Filtrowanie danych
 isChild: true
 ---
 
-## Filtrowanie danych
+## Filtrowanie danych {#data_filtering_title}
 
 Nigdy, przenigdy nie ufaj zewnętrznym danym wprowadzonym do Twojego kodu. Zawsze waliduj i zabezpieczaj je przed
 użyciem. Możesz użyć do tego funkcji `filter_var()` i `filter_input()`, które pomagają w tych czynnościach - potrafią

@@ -3,7 +3,7 @@ title: Interfejs CLI
 isChild: true
 ---
 
-## Interfejs CLI (Command Line Interface)
+## Interfejs CLI (Command Line Interface) {#command_line_interface}
 
 PHP znajduje zastosowanie głównie przy tworzeniu aplikacji webowych, ale może być również użyteczny jako język
 skryptowy, uruchamiany z poziomu konsoli. Dzięki temu można łatwo automatyzować typowe zadania, jak testowanie

@@ -3,7 +3,7 @@ title: Wyjątki
 isChild: true
 ---
 
-## Wyjątki
+## Wyjątki {#exceptions_title}
 
 Wyjątki dostępne są w większości języków programowania, lecz programiści PHP często je pomijają. Języki takie jak Ruby
 często używają wyjątków. Za każdym razem, gdy coś pójdzie nie tak, nieważne, czy jest to problem z wykonaniem żądania

@@ -2,7 +2,7 @@
 title: Jak formatować kod
 ---
 
-# Jak formatować kod
+# Jak formatować kod {#code_style_guide_title}
 
 Społeczność zgromadzona wokół języka PHP jest relatywnie duża i zróżnicowana, dzięki czemu powstało wiele bibliotek,
 frameworków i komponentów. Typową praktyką stosowaną przez programistów PHP jest wybór kilku takich składników i

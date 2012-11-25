@@ -3,7 +3,7 @@ title: Raportowanie błędów
 isChild: true
 ---
 
-## Raportowanie błędów
+## Raportowanie błędów {#error_reporting_title}
 
 Wyświetlanie błędów jest pomocne przy szukaniu problematycznych miejsc w Twojej aplikacji, ale ma jeden poważny minus:
 eksponuje systemowe, być może kluczowe z punktu widzenia bezpieczeństwa, informacje całemu światu. Pamiętaj o tym, że
