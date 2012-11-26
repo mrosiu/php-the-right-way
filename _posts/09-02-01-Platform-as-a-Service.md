@@ -9,6 +9,6 @@ Chmura, czyli PaaS (skrót od Platform as a Service), dostarcza pełną architek
 aby być dostępna w Sieci. Oznacza to, że za pomocą kilku kliknięć jesteś w stanie uruchomić takie środowisko, a nawet
 zainstalować odpowiednie frameworki, czy biblioteki.
 
-Ostatnimi czasy, głównie ze względu na łatwość skalowania apliakcji, rozwiązania oparte o chmurę zdobywają coraz
+Ostatnimi czasy, głównie ze względu na łatwość skalowania aplikacji, rozwiązania oparte o chmurę zdobywają coraz
 większą popularność. [Listę dostawców](#paas_providers) rozwiązań PaaS znajdziesz w rozdziale [linki](#resources_title);
  

@@ -27,7 +27,7 @@ być bardzo opłakane w skutkach - może przykładowo pomóc w przejęciu sesji 
 
 Innym przykładem jest przekazywanie danych od użytkownika jako fragment lub całość komendy do wykonania z poziomu linii
 poleceń. Nieodpowiednie zabezpieczenie takich danych przed użyciem w ten sposób może doprowadzić do wykonania
-niepożądanego polecenia, co może być poważnym zagrożeniemn bezpieczeństwa aplikacji i/lub systemu na którym ona działa.
+niepożądanego polecenia, co może być poważnym zagrożeniem bezpieczeństwa aplikacji i/lub systemu na którym ona działa.
 Aby bezpiecznie przekazać takie dane do wiersza poleceń, zabezpiecz je za pomocą funkcji `escapeshellarg()`.
 
 Niebezpieczeństwo może czyhać również tam, gdzie za pomocą danych z zewnątrz ustalasz ścieżkę w systemie plików.
