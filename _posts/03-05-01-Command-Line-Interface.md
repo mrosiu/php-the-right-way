@@ -51,7 +51,7 @@ A oto przykład wywołania powyższego skryptu:
 > php hello.php
 Usage: php hello.php [imię]
 > php hello.php Marek
-Cześć, Marek!
+Witaj, Marek!
 {% endhighlight %}
 
 
