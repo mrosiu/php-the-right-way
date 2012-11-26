@@ -4,7 +4,7 @@ title: Zarządzanie zależnościami
 
 # Zarządzanie zależnościami {#dependency_management_title}
 
-PHP posiada tysiące bibliotek, frameworków i komponentów. Tworząc swój projekt wybierzezsz prawdopodobnie kilka z nich
+PHP posiada tysiące bibliotek, frameworków i komponentów. Tworząc swój projekt wybierzesz prawdopodobnie kilka z nich
 - będą to jego zależności. Przez wiele lat PHP nie posiadał sprawnie działającego sposobu na zarządzanie zależnościami.
 Nawet jeżeli udało Ci się zestawić razem potrzebne Ci biblioteki, musiałeś ręcznie zadbać o ich dołączenie do projektu.
 Nigdy więcej. 
