@@ -7,14 +7,14 @@ title: Społeczność
 Społeczność PHP, zarówno w Polsce, jak i na całym świecie, jest duża, różnorodna i chętna do pomocy młodym adeptom tego
 języka programowania. Jeżeli w Twojej okolicy jest grupa użytkowników PHP, rozważ wstąpienie w jej szeregi. Bierz
 udział w konferencjach, aby dowiedzieć się więcej o najlepszych praktykach. Możesz także odwiedzić kanał IRC #phpc na
-serwerze `irc.freenode.com` lub obserwować [@phpc][phpc-twitter] na Twitterze. Taka aktywność sprzyja poznawaniu nowych
+serwerze `irc.freenode.org` lub obserwować [@phpc][phpc-twitter] na Twitterze. Taka aktywność sprzyja poznawaniu nowych
 deweloperów, czy nauce nowych tematów.
 
 [Oficjalny kalendarz wydarzeń PHP][php-calendar]
 
 ## Grupy użytkowników PHP
 
-Jeżeli mieszkasz w większym miejście, prawdopodobnie w jego okolicy jest grupa użytkowników PHP. Nie ma oficjalnej
+Jeżeli mieszkasz w większym mieście, prawdopodobnie w jego okolicy jest grupa użytkowników PHP. Nie ma oficjalnej
 listy grup, ale za pomocą [Google][google] prawdopodobnie znajdziesz coś dla siebie. Jeżeli w okolicy nie ma
 takiej grupy, może rozważysz założenie własnej? :)
 
