@@ -29,7 +29,7 @@ wielu jednoczesnych połączeń, jak jego konkurent, nginx.
 Istnieje kilka możliwości zainstalowania PHP na serwerze Apache. Najczęstszym wyborem jest
 [prefork MPM](http://httpd.apache.org/docs/2.4/mod/prefork.html) (od Multi-Processing Modules) i moduł mod_php5. Jest
 to najszybszy sposób, który wymaga relatywnie niewielkiego nakładu pracy administracyjnej i jest najlepszym podejściem
-dla osób, które wolą ten czas przeznaczyć na kodowanie. Minusem jest fakt, że mod_php5 zużywa więecj zasobów, co może
+dla osób, które wolą ten czas przeznaczyć na kodowanie. Minusem jest fakt, że mod_php5 zużywa więcej zasobów, co może
 wpłynąć na szybkość działania.
 
 Jeżeli chcesz wycisnąć z Apache'a nieco więcej szybkości oraz stabilności działania, możesz użyć tego samego systemu
