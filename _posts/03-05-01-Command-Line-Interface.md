@@ -33,7 +33,7 @@ zwrócenia kodu wyjścia, aby poinformować powłokę, czy skrypt wykonał się 
 wyjścia znajdziesz [tutaj][exit-codes].
 
 Poniżej znajdziesz kod skryptu drukującego napis "Witaj, $imie" z możliwością podania imienia przez linię poleceń. Plik
-z przykłądu nazywa się `hello.php`.
+z przykładu nazywa się `hello.php`.
 
 {% highlight php %}
 <?php
@@ -51,7 +51,7 @@ A oto przykład wywołania powyższego skryptu:
 > php hello.php
 Usage: php hello.php [imię]
 > php hello.php Marek
-Cześć, Marek!
+Witaj, Marek!
 {% endhighlight %}
 
 
