@@ -54,7 +54,7 @@ Twoją pracę.
 
 ## Dlaczego?
 
-W Sieci brakuje spójnej isntrukcji jak sprawnie rozpocząć programowanie w PHP. Projekt ten ma na celu zmianę tego stanu
+W Sieci brakuje spójnej instrukcji jak sprawnie rozpocząć programowanie w PHP. Projekt ten ma na celu zmianę tego stanu
 rzeczy.
 
 ## Kto?
