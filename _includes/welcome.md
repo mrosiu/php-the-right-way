@@ -34,7 +34,7 @@ rozwoju, bądź masz uwagi do bieżącego tłumaczenia, przeczytaj poniższy aka
 Jezeli chciałbyś/chciałabyś mieć wpływ na zawartość tego dokumentu lub po prostu chcesz powiedzieć światu o tej
 inicjatywie - zapraszamy!
 
-[Strona projektu w serwisue GitHub][1] 
+[Strona projektu w serwisie GitHub][1] 
 
 ## Podziel się dobrą informacją!
 
