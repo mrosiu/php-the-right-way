@@ -1,12 +1,12 @@
 ---
 layout: default
-description: "Przystępny zbiór najlepszych praktyk, standardów kodowania oraz linków do sprawdzonych tutoriali dostępnych w Sieci na temat PHP"
+description: "Przystępny zbiór najlepszych praktyk, standardów kodowania oraz linków do sprawdzonych tutoriali dostępnych w Sieci na temat PHP. Po polsku."
 ---
 
 {% capture welcome_content %}{% include welcome.md %}{% endcapture %}
 {{ welcome_content|markdownify }}
 
-{% capture backtotop %}[Back to Top](#top){.top}{% endcapture %}
+{% capture backtotop %}[Na górę](#top){.top}{% endcapture %}
 {% for post in site.posts reversed %}
     {% if post.isChild != true and loop.first != true %}
     {{ backtotop|markdownify }}
