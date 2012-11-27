@@ -14,7 +14,7 @@ Witaj w repozytorium GitHub Pages dla polskiego tłumaczenia projektu _PHP: The 
 _PHP: The Right Way_ udostępnia banery reklamowe, które śmiało możesz umieścić na swojej stronie internetowej, aby
 pomóc nam promować tę inicjatywę wśród programistów PHP.
 
-[Obejrzyj dostępne banery](http://www.phptherightway.com/banners.html)
+[Obejrzyj dostępne banery](http://pl.phptherightway.com/banners.html)
 
 ## Jak mogę pomóc?
 
@@ -72,4 +72,4 @@ Dokument jest udostępniony na licencji Creative Commons [Uznanie autorstwa-Uży
 
 ## Tłumaczenie na język polski
 
-Tłumaczenie na język polski wykonał Bartosz Maciaszek
+Tłumaczenie na język polski wykonał Bartosz Maciaszek.
