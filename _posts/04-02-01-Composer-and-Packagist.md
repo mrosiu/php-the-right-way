@@ -15,7 +15,7 @@ Za pomocą Composera można zainstalować wiele znanych bibliotek. Ich listę zn
 ### Instalacja Composera
 
 Composera możesz zainstalować lokalnie (w katalogu Twojego projektu) lub globalnie (np. w /usr/local/bin). Aby móc użyć
-tego narzedzia, wejdź do jego katalogu swojego projektu i wydaj polecenie:
+tego narzędzia, wejdź do jego katalogu swojego projektu i wydaj polecenie:
 
     curl -s https://getcomposer.org/installer | php
 
@@ -33,7 +33,7 @@ do współdzielonego katalogu, np. `/usr/local/bin`, zmieniając jego nazwę na 
 Ręczna instalacja Composera jest bardziej skomplikowanym procesem, gdyż sam musisz sprawdzić swój system, aby
 upewnić się, że spełnia on wymagania stawiane przez tę aplikację. Instalacja automatyczna sprawdza:
 - czy używasz odpowiedniej wersji PHP,
-- czy rozrzerzenie phar jest zainstalowane,
+- czy rozszerzenie phar jest zainstalowane,
 - czy uprawnienia do katalogów są odpowiednie,
 - czy nie zostały zainstalowane problematyczne rozszerzenia PHP,
 - oraz czy plik `php.ini` zawiera odpowiednie ustawienia.

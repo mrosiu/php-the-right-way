@@ -5,7 +5,7 @@ isChild: true
 
 ## Pliki konfiguracyjne {#configuration_files_title}
 
-Jeżeli Twoja aplikacja używa zewnętrznych plików konfiguracyjnych, pamiętaj, że nie powinny być obe dostepne dla
+Jeżeli Twoja aplikacja używa zewnętrznych plików konfiguracyjnych, pamiętaj, że nie powinny być one dostępne dla
 zewnętrznego świata. Zalecane jest użycie jednego z poniższych sposobów ich zabezpieczenia:
 
 - Trzymaj pliki konfiguracyjne poza DocumentRoot'em, dzięki czemu nie będą dostępne przez serwer WWW.

@@ -6,7 +6,7 @@ isChild: true
 ## Przestrzenie nazw {#namespaces_title}
 
 Jak wspomniano wcześniej, społeczność PHP jest tworzona przez niezliczoną ilość programistów. Powoduje to, że może
-zdarzyć się sytuacja, w której dwie rózne biblioteki użyją klasy o takiej samej nazwie. W takim przypadku pojawi się
+zdarzyć się sytuacja, w której dwie różne biblioteki użyją klasy o takiej samej nazwie. W takim przypadku pojawi się
 problem.
 
 Naprzeciw temu problemowi wychodzą _przestrzenie nazw_, których działanie można porównać z funkcją katalogów w systemie

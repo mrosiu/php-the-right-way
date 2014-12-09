@@ -46,7 +46,7 @@ wykonywania możesz używać tych samych narzędzi.
 
 ### Testy funkcjonalne
 
-Czasami znane również jako testy akceptacyjne. W odrożnieniu od testów jednostkowych, zamiast konkretnych fragmentów
+Czasami znane również jako testy akceptacyjne. W odróżnieniu od testów jednostkowych, zamiast konkretnych fragmentów
 kodu, testują one pełną aplikację. Takie testy zwykle korzystają z rzeczywistych danych i symulują zachowanie
 prawdziwych użytkowników.
 

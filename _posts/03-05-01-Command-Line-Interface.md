@@ -13,7 +13,7 @@ Skrypty uruchamiane z poziomu konsoli mają dostęp do całego kodu Twojej aplik
 sposób jak w przypadku wywołania z poziomu serwera WWW. Pamiętaj, aby nie umieszczać skryptów przeznaczonych do
 uruchomienia pod konsolą w publicznej części Twojego projektu.
 
-Srpróbuj uruchomić następujące polecenie z poziomu linii poleceń:
+Spróbuj uruchomić następujące polecenie z poziomu linii poleceń:
 
 {% highlight bash %}
 > php -i

@@ -9,11 +9,11 @@ PHP w systemie Windows można zainstalować na kilka sposobów. Pierwszym z nich
 [binariów](php-downloads). Do wersji 5.3.0 można było korzystać z instalatora .msi, obecnie ten sposób instalacji
 nie jest już wspierany.
 
-Do nauki i lokalnego rozwijania aplikacji oprartych o PHP najlepiej użyć serwera WWW wbudowanego w dystrybucję.
+Do nauki i lokalnego rozwijania aplikacji opartych o PHP najlepiej użyć serwera WWW wbudowanego w dystrybucję.
 Używając go, nie musisz się martwić o jego konfigurację. Jeżeli potrzebujesz czegoś więcej, możesz użyć jednego z
 pakietów "all-in-one", który sprawnie zainstaluje dedykowany serwer WWW, PHP oraz bazę danych MysQL. Najbardziej
 znanymi rozwiązaniami tego typu są [Web Platform Installer][wpi], [Zend Server CE][zsce], [XAMPP][xampp] oraz
-[WAMP][wamp]. Używając ich, pamiętaj o tym, że takie środowisko może różnić się od produkcyjnego, działajcego np. na
+[WAMP][wamp]. Używając ich, pamiętaj o tym, że takie środowisko może różnić się od produkcyjnego, działającego np. na
 Linuksie.
 
 Jeżeli chcesz stworzyć środowisko produkcyjne w systemie Windows, najlepszym rozwiązaniem jest użycie serwera IIS7,

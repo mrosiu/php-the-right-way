@@ -19,7 +19,7 @@ stosowanie obiektowych rozszerzeń, takich jak mysqli lub PDO.
 
 ## PDO
 
-PDO jest bazodanową warstwą abstracji dostępną od PHP 5.1.0, która dostarcza obiektowy interfejs do komunikacji z
+PDO jest bazodanową warstwą abstrakcji dostępną od PHP 5.1.0, która dostarcza obiektowy interfejs do komunikacji z
 wieloma silnikami baz danych. PDO nie tłumaczy Twoich zapytań SQL ani nie emuluje brakujących funkcjonalności; jest
 natomiast biblioteką umożliwiającą łączenie się do wszystkich obsługiwanych przez siebie baz danych przez jedno wspólne
 API, co jest doskonałym rozwiązaniem dla aplikacji w których osoba instalująca ją decyduje o typie silnika. 

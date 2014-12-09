@@ -12,7 +12,7 @@ wersji.
 
 Serwery hostingowe to rozwiązania współdzielone, co oznacza, że na jednej fizycznej maszynie może działać wiele
 aplikacji. Plusem takiego podejścia jest fakt, że hosting jest relatywnie tani. Minusem jest brak niezależności:
-zasoby serwera mogą być zajęte przez innych uzytkowników, unieruchamiając bądź ograniczając dostęp do Twojej aplikacji.
+zasoby serwera mogą być zajęte przez innych użytkowników, unieruchamiając bądź ograniczając dostęp do Twojej aplikacji.
 Inną istotną sprawą jest fakt, że inne aplikacje zainstalowane na tym samym serwerze mogą posiadać luki bezpieczeństwa,
-które pozwolą akatującemu uzyskać dostęp do maszyny i wykonać atak na wszystkich, nawet bezpiecznych aplikacjach.
-Jeżeli Twój budżet na to pozwala, powinieneśunikać serwerów hostingowych.
+które pozwolą atakującemu uzyskać dostęp do maszyny i wykonać atak na wszystkich, nawet bezpiecznych aplikacjach.
+Jeżeli Twój budżet na to pozwala, powinieneś unikać serwerów hostingowych.
