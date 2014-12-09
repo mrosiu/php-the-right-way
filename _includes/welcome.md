@@ -3,7 +3,7 @@
 W Sieci można znaleźć wiele publikacji na temat PHP. Niestety, wiele z nich jest nieaktualnych, niekompletnych lub nie
 odnosi się do aktualnych dostępnych wersji. Wprowadza to wszechobecny zamęt i prowadzi nowych fanów tego języka na
 przysłowiowe manowce. Tak dalej być nie może. _PHP: The Right Way_ jest przystępnym zbiorem najlepszych praktyk i
-standarów kodowania, a także linków do sprawdzonych i solidnych tutoriali pałętających się w czeluściach Internetu. 
+standardów kodowania, a także linków do sprawdzonych i solidnych tutoriali pałętających się w czeluściach Internetu. 
 
 ## Tłumaczenia
 
@@ -31,7 +31,7 @@ rozwoju, bądź masz uwagi do bieżącego tłumaczenia, przeczytaj poniższy aka
 
 ## Jak mogę pomóc?
 
-Jezeli chciałbyś/chciałabyś mieć wpływ na zawartość tego dokumentu lub po prostu chcesz powiedzieć światu o tej
+Jeżeli chciałbyś/chciałabyś mieć wpływ na zawartość tego dokumentu lub po prostu chcesz powiedzieć światu o tej
 inicjatywie - zapraszamy!
 
 [Strona projektu w serwisie GitHub][1] 

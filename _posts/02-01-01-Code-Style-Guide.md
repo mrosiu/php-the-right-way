@@ -13,7 +13,7 @@ Aby wyjść temu problemowi naprzeciw, [Framework Interop Group][fig] (znane tak
 wypracowało serię rekomendacji dotyczących stylu kodowania znanych jako [PSR-0][psr0], [PSR-1][psr1] i [PSR-2][psr2].
 Są one zbiorem konwencji i dobrych praktyk, których powinny trzymać się programiści tworząc swoje projekty. Już teraz
 konwencje te stosują m.in. takie projekty jak Drupal, Zend Framework, CakePHP, phpBB, AWS SDK, FuelPHP, czy Lithium.
-Oczywiście stosowanie tych zaleceń nie jest obowiązkowe, równie dobrze możesz towrzyć kod używając swojego własnego
+Oczywiście stosowanie tych zaleceń nie jest obowiązkowe, równie dobrze możesz tworzyć kod używając swojego własnego
 stylu.
 
 Decydując się na używanie PSR, ułatwiasz potencjalnym programistom, którzy będę z Tobą współpracować, zrozumienie

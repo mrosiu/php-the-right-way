@@ -6,7 +6,7 @@ isChild: true
 
 Istnieją dwa rodzaje BDD (Behavior-Driven Development): SpecBDD i StoryBDD. Pierwszy z nich charakteryzuje się
 technicznym podejściem, gdzie istotny jest kod i jego zachowanie, podczas gdy drugi reprezentuje podejście biznesowe,
-gdzie najważnieszą kwestią jest to jak produkt będzie funkcjonował z perspektywy klienta. W PHP dostępne sa frameworki
+gdzie najważniejszą kwestią jest to jak produkt będzie funkcjonował z perspektywy klienta. W PHP dostępne są frameworki
 wspierające oba te typy.
 
 W StoryBDD piszesz zrozumiałe dla człowieka historyjki, które opisują zachowanie Twojej aplikacji. Są one później
@@ -15,7 +15,7 @@ inspirowany projektem [Cucumber](http://cukes.info/) dla Ruby'ego. Do opisywania
 Gherkin DSL (Gherkin Domain Specific Language).
 
 W SpecBDD piszesz natomiast specyfikacje opisujące w jaki sposób powinien zachowywać się Twój kod. Zamiast testować
-funkcję, czy metodę, opisujesz jak powinna sie zachowywać. Ten typ BDD wspierany jest przez framework PHPSpec, który
+funkcję, czy metodę, opisujesz jak powinna się zachowywać. Ten typ BDD wspierany jest przez framework PHPSpec, który
 z kolei inspirowany jest projektem [RSpec project](http://rspec.info/), także dla Ruby'ego.
 
 ### Linki    

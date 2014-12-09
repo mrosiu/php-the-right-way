@@ -5,7 +5,7 @@
 Witaj w repozytorium GitHub Pages dla polskiego tłumaczenia projektu _PHP: The Right Way_! 
 
 * Ta strona jest projektem Jekyll.
-* Kolejne sekcje i podsekcje sa plikami *.md (Markdown) w katalogu `_posts/`.
+* Kolejne sekcje i podsekcje są plikami *.md (Markdown) w katalogu `_posts/`.
 * Podsekcje posiadają wpis `isChild: true` w nagłówku.
 * Nawigacja boczna i struktura strony jest generowana automagicznie.
 

@@ -22,7 +22,7 @@ takiej grupy, może rozważysz założenie własnej? :)
 
 ## Konferencje PHP
 
-Społecznośc PHP organizuje liczne konferencje w wielu krajach. Można na nich spotkać wiele znanych osób, a także
+Społeczność PHP organizuje liczne konferencje w wielu krajach. Można na nich spotkać wiele znanych osób, a także
 posłuchać ciekawych prelekcji. Oficjalną polską konferencją PHP jest [PHPCon][phpcon-poland].
 
 [Lista konferencji PHP][php-conf]

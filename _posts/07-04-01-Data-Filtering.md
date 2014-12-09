@@ -7,12 +7,12 @@ isChild: true
 
 Nigdy, przenigdy nie ufaj zewnętrznym danym wprowadzonym do Twojego kodu. Zawsze waliduj i zabezpieczaj je przed
 użyciem. Możesz użyć do tego funkcji `filter_var()` i `filter_input()`, które pomagają w tych czynnościach - potrafią
-przykładowo w prosty sposób sprawdzić poprawność składniową wprowadzego przez użytkownika adresu e-mail.
+przykładowo w prosty sposób sprawdzić poprawność składniową wprowadzonego przez użytkownika adresu e-mail.
 
-Zewnętrzne dane mogą znaleźć się wszędzie: głównym ich źródłem sa tablice `$_GET` i `$_POST` zawierające parametry
+Zewnętrzne dane mogą znaleźć się wszędzie: głównym ich źródłem są tablice `$_GET` i `$_POST` zawierające parametry
 żądania. Niektóre wartości w tablicy `$_SERVER` pochodzą wprost z nagłówków, które wysyła użytkownik, czy
 `fopen('php://input', 'r')` - ciało żądania HTTP. Pamiętaj, że zewnętrzne dane to nie tylko dane z formularzy
-wysłanych przez uzytkownika. Pliki, które ściągasz, dane sesji, ciasteczka, czy nawet dane z zewnętrznych
+wysłanych przez użytkownika. Pliki, które ściągasz, dane sesji, ciasteczka, czy nawet dane z zewnętrznych
 webservice'ów powinny być traktowane jako dane, którym nie można ufać.
 
 Z uwagi na to, że zewnętrzne dane mogą być przechowywane w bazach danych, należy pamiętać o tym, żeby przy ich odczycie
@@ -21,7 +21,7 @@ odpowiednio zabezpieczone i czy można im ufać.
 
 Sposób zabezpieczania zewnętrznych danych zależy od sposobu ich użycia. Przykładowo gdy chcesz użyć danych pochodzących
 od użytkownika w HTML'u, musisz zadbać o usunięcie bądź zamianę znaczników sterujących, takich jak '<', '>' na
-odpowiednie encje HTML, gdyż w przeciwnym razie odpowiednio spreparowany ciąg znaków może uruchomic skrypt JS, co może
+odpowiednie encje HTML, gdyż w przeciwnym razie odpowiednio spreparowany ciąg znaków może uruchomić skrypt JS, co może
 być bardzo opłakane w skutkach - może przykładowo pomóc w przejęciu sesji użytkownika. Taki rodzaj ataku to XSS
 (Cross-Site Scripting).
 
