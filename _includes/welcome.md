@@ -10,13 +10,24 @@ standardów kodowania, a także linków do sprawdzonych i solidnych tutoriali pa
 _PHP: The Right Way_ jest (lub niebawem będzie) przetłumaczony na wiele języków:
 
 * [Angielski](http://www.phptherightway.com)
-* [Chiński](http://wulijun.github.com/php-the-right-way)
+* [Bułgarski](http://bg.phptherightway.com/)
+* [Chiński (uproszczony)](http://wulijun.github.com/php-the-right-way)
+* [Chiński (tradycyjny)](https://laravel-taiwan.github.io/php-the-right-way/)
+* [Francuski](https://eilgin.github.io/php-the-right-way/)
 * [Hiszpański](http://es.phptherightway.com)
+* [Indonezyjski](http://id.phptherightway.com/)
 * [Japoński](http://ja.phptherightway.com)
+* [Koreański](https://wafe.github.io/php-the-right-way/)
+* [Niemiecki](https://rwetzlmayr.github.io/php-the-right-way/)
 * [Polski](http://pl.phptherightway.com)
 * [Portugalski](http://br.phptherightway.com/)
-* Rosyjski (Wkrótce)
+* [Rosyjski](https://getjump.github.io/ru-php-the-right-way/)
+* [Rumuński](https://bgui.github.io/php-the-right-way/)
+* [Słoweński](http://sl.phptherightway.com/)
+* [Tajski](https://apzentral.github.io/php-the-right-way/)
+* [Turecki](http://kulekci.net/php-the-right-way/)
 * [Ukraiński](http://iflista.github.com/php-the-right-way/)
+* [Włoski](http://it.phptherightway.com/)
 
 ## Uwaga
 
